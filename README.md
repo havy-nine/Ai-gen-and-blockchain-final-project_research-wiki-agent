@@ -7,7 +7,7 @@
 
 ## 2. Primary Project Type
 
-Research/Study Copilot
+Research/Study Copilot (When the official cetificationis needed, add block chain for verify.)
 
 ## 3. Problem Statement and Target User
 
