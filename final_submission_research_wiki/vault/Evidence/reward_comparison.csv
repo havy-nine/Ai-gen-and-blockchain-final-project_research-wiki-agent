@@ -1,3 +1,0 @@
-policy,claim_checks,unsupported_caught,accepted_findings,payments,total_mock_wlc,claim
-no_reward_baseline,545,0,545,0,0.0,baseline evaluation output; no payment flow activated
-accepted_finding_rewards,545,0,545,545,5.45,same mock evaluation output; accepted-finding payment flow activated

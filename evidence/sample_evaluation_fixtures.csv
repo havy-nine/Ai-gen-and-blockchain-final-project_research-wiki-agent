@@ -1,7 +1,0 @@
-sample_id,score_bps,critical,decision_at_7800,unsupported_accepted
-sample_supported_strong,9200,False,PASS,0
-sample_supported_good,8700,False,PASS,0
-sample_supported_borderline,8100,False,PASS,0
-sample_partial_below_gate,7600,False,FAIL,1
-sample_weak_below_gate,7200,False,FAIL,1
-sample_critical_hallucination,0,True,FAIL,3

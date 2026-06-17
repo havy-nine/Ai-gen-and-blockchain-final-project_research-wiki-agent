@@ -1,15 +1,24 @@
-# Code Directory Note
+# Code
 
-The existing implementation lives in `src/`, `demo/`, and `contracts/`. This `code/` directory is included to satisfy the final-project structure requirement without moving working code.
+This folder contains the runnable implementation for the final project.
 
-Primary code paths:
+## Main Components
 
-- `src/main.py`
-- `src/pipeline/runner.py`
-- `src/agents/curator.py`
-- `src/agents/evaluator.py`
-- `src/agents/payer.py`
-- `src/llm_client.py`
-- `demo/demo_pipeline.py`
-- `demo/build_obsidian_vault.py`
-- `contracts/PageCertificateRegistry.sol`
+- `src/`: core pipeline, agents, LLM client, hashing, and mock blockchain tools
+- `demo/`: CLI demos, pipeline runner, vault builder, paper downloader, and research note tools
+- `contracts/`: certificate registry smart contract
+- `mcp_servers/`: optional MCP-style research vault server
+- `tests/`: lightweight package/test scaffold
+
+## Quick Run
+
+```bash
+python -m pip install -r requirements.txt
+python demo/demo_pipeline.py --threshold-bps 7800 --llm-provider mock --eval-provider mock --mock-chain --mock-payment --append-usage-log
+```
+
+Run the PDF/research-topic CLI:
+
+```bash
+python demo/source_drop_cli.py --sources-dir ../tmp_sources --output-dir ../tmp_wiki --llm-provider mock --eval-provider mock --mock-chain --mock-payment
+```

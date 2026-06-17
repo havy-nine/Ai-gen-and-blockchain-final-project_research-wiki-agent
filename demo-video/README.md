@@ -4,12 +4,10 @@ Demo video link: TODO - add the uploaded video URL here after recording.
 
 Target length: under 5 minutes.
 
-Recording guide: `final_submission_research_wiki/VIDEO_GUIDE.md`
+Suggested contents:
 
-The video should show:
-
-1. Opening the Obsidian vault at `final_submission_research_wiki/vault`.
-2. Running the terminal wiki search.
-3. Using the integrated CLI for PDF path input and research-topic input.
-4. Opening the generated Research Notes with source-backed related papers.
-5. Explaining that certificate/payment outputs are mock only, not real WorldLand tx or real WLC payment.
+1. Show the project goal and target user.
+2. Run the CLI from `code/`.
+3. Show PDF/research-topic workflow or generated wiki output.
+4. Show `usage-log/USAGE_LOG.md`.
+5. Explain that blockchain certificate/payment outputs are mock-only.
