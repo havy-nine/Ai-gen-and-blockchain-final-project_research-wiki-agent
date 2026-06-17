@@ -1,0 +1,72 @@
+{
+  "run_id": "run_20260604_113928",
+  "timestamp": "2026-06-04T11:40:47.717444+00:00",
+  "threshold_bps": 7800,
+  "llm_provider_requested": "ollama",
+  "llm_provider_used": "mock+ollama",
+  "fallback_message": "",
+  "source_files": 7,
+  "chunks": 85,
+  "fixture_chunks": 1,
+  "pages": 8,
+  "passed": 6,
+  "failed": 2,
+  "certificates_on_chain": 6,
+  "payments": 21,
+  "chain_records": [
+    {
+      "tx_hash": "0xmock_cert_520e050b0829ef8786583fd7328a4f4b41d157afd0596f3a",
+      "page_id": "a6dae8df-d1d6-4a2d-8f1b-8cfd010ba710",
+      "page_title": "3D Diffuser Actor: Policy Diffusion with 3D Scene Representations",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "17d6876868eceb9db8269c43aefc5416931631f4732b37e3fcdb566e4c77415f",
+      "timestamp": "2026-06-04T11:40:47.717337+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_f7e350be741f51509deb1c937c98e8209b1a148cfa6e8e1d",
+      "page_id": "2084e619-1714-4b05-9137-01654c70cfb9",
+      "page_title": "Adapt3R: Adaptive 3D Scene Representation for Domain Transfer in Imitation Learn",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "47198f2c48186da46e513239348ddc3085315b893fbde4dbb8272b6d5856d695",
+      "timestamp": "2026-06-04T11:40:47.717345+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_fec9fc86a49b5fdc09ca3caccb7f9ab309ffffb3c381c124",
+      "page_id": "70058c83-af23-4be8-8f0c-af6c321b39e1",
+      "page_title": "HyperTASR: Hypernetwork Driven Task Aware Scene Representations for Robust Manip",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "c23e1b6bcf321dd6d0d72725c3b38dcf687dd598ffc39cfb9d679efeac51a8b0",
+      "timestamp": "2026-06-04T11:40:47.717350+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_4c254dddc44ed52753883c31d2dd43ad1f925a6db274e52e",
+      "page_id": "2e5c8e17-f8d9-4b3e-8b47-3bcfb82b6b9c",
+      "page_title": "PointMapPolicy: Structured Point Cloud Processing for Multi Modal Imitation Lear",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "be6776f436d40c129be842ea344f0a750eb9686ddbbb659edbd41e948dbd2796",
+      "timestamp": "2026-06-04T11:40:47.717354+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_98835f0d373171c68dad20b5b24f4b1bc0670d13f486a1de",
+      "page_id": "65036bfe-a6b5-4620-b7d6-14967b5889e7",
+      "page_title": "SAM2Act: Integrating Visual Foundation Model with A Memory Architecture for Robo",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "51fc0146458879018134cd814a55f147e6909a7ede19e216a86f4dd1b1d7c228",
+      "timestamp": "2026-06-04T11:40:47.717357+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_ae2aac964e6304570a24ee86c2ef3fd394b897749ee70fb7",
+      "page_id": "ed361fc3-7d6c-4e8b-ba80-532356503fae",
+      "page_title": "V JEPA 2: Self Supervised Video Models Enable Understanding, Prediction and Plan",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "fabf13f6d1248577da206ed16ab2dc837fdd97c82e17e84f3039b0a9cb0245f2",
+      "timestamp": "2026-06-04T11:40:47.717361+00:00"
+    }
+  ]
+}

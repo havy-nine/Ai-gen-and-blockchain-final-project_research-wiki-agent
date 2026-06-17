@@ -1,0 +1,109 @@
+{
+  "run_id": "run_20260607_192620",
+  "timestamp": "2026-06-07T19:27:10.773686+00:00",
+  "threshold_bps": 7800,
+  "llm_provider_requested": "ollama",
+  "eval_provider_requested": "ollama",
+  "llm_provider_used": "mock+ollama",
+  "fallback_message": "",
+  "source_files": 10,
+  "chunks": 118,
+  "fixture_chunks": 1,
+  "pages": 11,
+  "passed": 10,
+  "failed": 1,
+  "certificates_on_chain": 10,
+  "payments": 33,
+  "chain_records": [
+    {
+      "tx_hash": "0xmock_cert_11bf7e6a00c92270d5ce2a3b81acfd2f1215e31d6b79de6a",
+      "page_id": "41fc0935-fc91-4d08-b26d-4df096d70334",
+      "page_title": "CVPR2026 01 TEAR Temporal aware Automated Red teaming for Text to Video Models",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "9824f0834eca1052882472a1ef0cfd7368889471077ce42fa3560828e7f363de",
+      "timestamp": "2026-06-07T19:27:10.773077+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_a096e02a318fcf179eedd3c45007898ef3336f7340aeb71a",
+      "page_id": "18713995-f6fc-4cfe-813e-2eb4e3f4dbc7",
+      "page_title": "CVPR2026 02 D2FANet Enhancing Video Object Detection with Dual Domain Feature Ag",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "948523dff726d93e8c1bfb612052d4657eeaa41abafdc4e31fdbb02341fed6e2",
+      "timestamp": "2026-06-07T19:27:10.773095+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_a7ef099b3ddba50976860d727cca228b707de3ba2ad0e896",
+      "page_id": "ca77d582-dc3d-4cee-90a8-657f9f7b68e8",
+      "page_title": "CVPR2026 03 AutoTraces Autoregressive Trajectory Forecasting via Multimodal Larg",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "65f0cd8c5d81f77b1352a360166756bbb70343f2845234f8ce3a90c3023b0c18",
+      "timestamp": "2026-06-07T19:27:10.773109+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_d2a37d6719d9a50cdac92b48937f05b812964e0acfb8fe62",
+      "page_id": "368bcc1b-554c-4792-934f-35dce5a6b372",
+      "page_title": "CVPR2026 04 Live Interactive Training for Video Segmentation",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "e186a5fef0a8a9d7cc7f44d20e0aa3af902224e233e9db78ff66824888ed1040",
+      "timestamp": "2026-06-07T19:27:10.773123+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_3f866ba47f26863af5b4fdcd4954ed1289c01838ebcf14b2",
+      "page_id": "6aed2ed8-658a-4a0a-9c56-b8c5d5435aa7",
+      "page_title": "CVPR2026 05 RigMo Unifying Rig and Motion Learning for Generative Animation",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "784e2783a088a4a8e7d5d5febff9e0e296cf4df04ee15c802f870591871db2bb",
+      "timestamp": "2026-06-07T19:27:10.773137+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_3867f5dfd59351113ad2ff560844d3075d347d2a4edcbd02",
+      "page_id": "6524f4fb-c259-47a9-9065-27bb7a10f080",
+      "page_title": "CVPR2026 06 Beyond Objects Contextual Synthetic Data Generation for Fine Grained",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "67d08f3345a708ba45f1a32a0bbb620342c64d69d804264ca992cd7a308e63df",
+      "timestamp": "2026-06-07T19:27:10.773151+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_bb2d53c0843039c0aa4887854af4d7742505c27e3c881a6d",
+      "page_id": "815119fa-4ed0-4e08-a694-59475825cd5e",
+      "page_title": "CVPR2026 07 PosterIQ A Design Perspective Benchmark for Poster Understanding and",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "2a04f90a7dd48e78f1e532ce71cdaf5c311acf569eb51ff9a029565e0301669a",
+      "timestamp": "2026-06-07T19:27:10.773165+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_3ebace7f928097defb0920a1d25246c8391d0a34a6a02f23",
+      "page_id": "166e4891-d850-4c44-aae3-90a0d8590f92",
+      "page_title": "CVPR2026 08 SimRecon SimReady Compositional Scene Reconstruction from Real Video",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "099d00f1e67fda20502f4f9f44c16fa13122c49d83821e8d05c32ad1c28389c9",
+      "timestamp": "2026-06-07T19:27:10.773179+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_746e839d88ab4154addfe174416d428179a9c806740d48bc",
+      "page_id": "05a254dd-d2d0-4c5e-968c-ff40f74190cb",
+      "page_title": "CVPR2026 09 Exact GS Mathematically Rigorous and Accurate 3D Gaussian Splatting ",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "b99c368d7786c6289ce7e5ecbff94b8419e410999d6539ef2ac92f5b97abc3fc",
+      "timestamp": "2026-06-07T19:27:10.773192+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_0b2b999f0fdb51c402da5c3f6d9e9353d7dd34e3b7c25ac9",
+      "page_id": "dbd0fbad-10ca-4287-8fd0-d22aff654e28",
+      "page_title": "CVPR2026 10 Hybrid Robust Collaborative Perception with LiDAR 4D Radar Fusion un",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "1e473ed5472dbf65ee0f636b064e4dea683d4b28cd8c56c3864750a5d743d152",
+      "timestamp": "2026-06-07T19:27:10.773206+00:00"
+    }
+  ]
+}

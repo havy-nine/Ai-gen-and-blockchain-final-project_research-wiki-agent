@@ -1,0 +1,973 @@
+{
+  "run_id": "run_20260604_121901",
+  "timestamp": "2026-06-04T12:32:17.501074+00:00",
+  "threshold_bps": 7800,
+  "llm_provider_requested": "ollama",
+  "eval_provider_requested": "mock",
+  "llm_provider_used": "mock+ollama",
+  "fallback_message": "LLM unavailable; deterministic mock fallback used. (timed out)",
+  "source_files": 107,
+  "chunks": 1306,
+  "fixture_chunks": 1,
+  "pages": 108,
+  "passed": 106,
+  "failed": 2,
+  "certificates_on_chain": 106,
+  "payments": 368,
+  "chain_records": [
+    {
+      "tx_hash": "0xmock_cert_36f36731b06cbc527ee9c17727e7adaed5f4500aaf20fb1d",
+      "page_id": "4d4937ea-3f0e-4966-b0bf-472b0411d570",
+      "page_title": "3D Diffuser Actor: Policy Diffusion with 3D Scene Representations",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "9da3a3b3c3acc643e72a7bf8bca7af6e1cd223b3481aca3fb5b92ec0a44a0263",
+      "timestamp": "2026-06-04T12:32:17.499384+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_b6c1daede5c3b6dfcde3e2922d70e0f991cfa30d28f9e3db",
+      "page_id": "7b2b858c-bee8-4fdf-bab1-b8cbc1d06475",
+      "page_title": "Adapt3R: Adaptive 3D Scene Representation for Domain Transfer in Imitation Learn",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "b06499136494e5339908be5c5971205084865c3ba47468599fc8ffdaebee1d72",
+      "timestamp": "2026-06-04T12:32:17.499392+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_9a91eb4ce93513f2bedc61790fa2d7b316378fda37e263cc",
+      "page_id": "35ad7243-37c4-4742-b184-d18cbeac0669",
+      "page_title": "Diffusion Models Classifier Free Diffusion Guidance 2207 12598",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "8fcabce5a0db9ac43e14dd203684871037ef2b9e34f822817b14744357c46191",
+      "timestamp": "2026-06-04T12:32:17.499397+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_d8c6c541c55ec764dd631a5bf270243f89044cf2f310fea5",
+      "page_id": "73fece89-1eb0-4d50-a20f-e644f782924b",
+      "page_title": "Diffusion Models Denoising Diffusion Implicit Models 2010 02502",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "836680f620ab12acd7da14762db740aa4733c1847df6656804c99e9a0e62ba8f",
+      "timestamp": "2026-06-04T12:32:17.499402+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_9643c639b0537b85348704f6b079065e64c1ba174b3b871e",
+      "page_id": "3964e4f8-ac06-4b0d-8026-e13787f0d1ec",
+      "page_title": "Diffusion Models Denoising Diffusion Probabilistic Models 2006 11239",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "206a759ac89f24d92396e4feda6aa93e9901cfe6cf907f63ba39741f5e66fd3b",
+      "timestamp": "2026-06-04T12:32:17.499406+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_ea83eacfdae9dbf709a963a8c8e9b400a4922c280c6cf33b",
+      "page_id": "9fddabe4-22ee-47b4-aca9-98c74885de7e",
+      "page_title": "Diffusion Models GLIDE Towards Photorealistic Image Generation and Editing 2112 ",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "40cff73c09cf8185c4494ac596b9ff253a4c43eea4cdc748e1598cb5d46dbc38",
+      "timestamp": "2026-06-04T12:32:17.499409+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_6ecf99c98204381187d6b6a82468f992db39c0e58dd2d847",
+      "page_id": "4e96202b-0491-4da6-97c0-d987d7d028ce",
+      "page_title": "Diffusion Models Hierarchical Text Conditional Image Generation with CLIP Latent",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "89ed8bb25570add380f0a6d0457a0c84fe5d4d4bda2ec417db5c1dd9e176b193",
+      "timestamp": "2026-06-04T12:32:17.499413+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_c2b5dd76edfdee454fcd42770585301578bfa70312582d00",
+      "page_id": "c72d4097-0813-409e-b1ed-76bd94c97eed",
+      "page_title": "Diffusion Models High Resolution Image Synthesis with Latent Diffusion Models 21",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "f2eb5a821bc38015b676e6aec9160c9099f1a15f508afa21007e402ff852d6d6",
+      "timestamp": "2026-06-04T12:32:17.499417+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_cf0979eaa2d5445988a19680fac81378b2fac116849e8480",
+      "page_id": "4e4dd37e-2080-48de-8f39-6f216de4ee2c",
+      "page_title": "Diffusion Models Improved Denoising Diffusion Probabilistic Models 2102 09672",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "846f544ae43350b6ac1f85e73244e893c27701c5a9b5360a9b90538e7f0b9ba6",
+      "timestamp": "2026-06-04T12:32:17.499421+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_47404e6d2095709a2dcb104bb3da9d4802c25091293d01a1",
+      "page_id": "c768798a-1798-47a5-8afa-9b83ec4d0a4f",
+      "page_title": "Diffusion Models Photorealistic Text to Image Diffusion Models with Deep Languag",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "697ec6c78ebd37bae13af146fc0a2a39b06a10b6df1eeaf7b6b0303e1f16eb4c",
+      "timestamp": "2026-06-04T12:32:17.499425+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_de0616c554aa606049b606b7f1ef942f30c00a6d6acfde83",
+      "page_id": "4c609c1b-d0f9-498b-a0d5-b52071e5dddc",
+      "page_title": "Diffusion Models Score Based Generative Modeling through Stochastic Differential",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "dcd6be72a1089603f671e9e51d9ddf8a550c65eafe0768a2a82738f9f10f9e93",
+      "timestamp": "2026-06-04T12:32:17.499429+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_fb57cc5b05b761fbf4a63493f8dcad59320f4bc48e2b5dfb",
+      "page_id": "2f6c5163-f8d9-4e8e-b14f-089d86bfc425",
+      "page_title": "EquAct: An SE(3) Equivariant Multi Task Transformer for Open Loop Robotic Manipu",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "12253297e05f51c668d8ba858b62b667481d84b1a61c2fc28366935e47b8836d",
+      "timestamp": "2026-06-04T12:32:17.499432+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_8808997dce8aa9fdb3608eeed4dd5739ae2bc824958cb652",
+      "page_id": "53994687-574b-4758-afb1-b517c558bff4",
+      "page_title": "Generative Models A Style Based Generator Architecture for GANs 1812 04948",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "25022d9b99059332020e53042b43eb3e5b0b63ada5fe7f6be3ce381dba3db8a4",
+      "timestamp": "2026-06-04T12:32:17.499436+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_d2e12e8c4309f2b8388b96948234507afaf3d28d98e3e904",
+      "page_id": "aa1fe1ba-3397-4fbc-964e-47098550b7f5",
+      "page_title": "Generative Models Analyzing and Improving the Image Quality of StyleGAN 1912 049",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "5bf570292cc93a039a04c975277973c1bdd4421c8f888f43798c2e31e032ca5f",
+      "timestamp": "2026-06-04T12:32:17.499440+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_2bb5b2ee2465ee60ea22b925f12aeb436a0c37905a3b5dae",
+      "page_id": "68aba72c-651e-441f-b577-3a154c49d83d",
+      "page_title": "Generative Models Auto Encoding Variational Bayes 1312 6114",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "f1ca9b9b508eafcc31aed9e87310924ecb9569cf2c031d4dff9d63bc010569dd",
+      "timestamp": "2026-06-04T12:32:17.499443+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_b7cac7e78661a05968779ff49dd37463f49b81efcfd7a5da",
+      "page_id": "8ebe8da0-7762-4d08-9911-bc834445e391",
+      "page_title": "Generative Models Density Estimation using Real NVP 1605 08803",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "2dcb27536d2f2d3d17a95c2f6604f9f09f31faf04dd8af301edf73f99ca4f505",
+      "timestamp": "2026-06-04T12:32:17.499448+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_bdba2b960b767b33368cb601057eecca9873af002f86819f",
+      "page_id": "28c0ae21-79b8-4bf6-ac40-e17e311bb68f",
+      "page_title": "Generative Models Generative Adversarial Networks 1406 2661",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "8559e944632b06c22ad73721ee7bc314454b56548a3e77af1ce7d603dc0cca22",
+      "timestamp": "2026-06-04T12:32:17.499451+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_dbafbb3d1c263c003a3404c744bb468c57d9b8974d5f7b39",
+      "page_id": "a1351c9a-af48-4eb4-9db8-5f29dc660266",
+      "page_title": "Generative Models Glow Generative Flow with Invertible 1x1 Convolutions 1807 030",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "a53b5bb713a39a99292741f8af11bd5e3674710ce72003dad18d5ce6ce980328",
+      "timestamp": "2026-06-04T12:32:17.499455+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_317915a35d482041de1bd6f99388519e64b1e6af19f5f720",
+      "page_id": "06f3fe6f-e279-4fa3-856b-10566322726d",
+      "page_title": "Generative Models Image to Image Translation with Conditional Adversarial Networ",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "72623f428787bb4319639501a3836f673ebc1fb62fe1de5063a3eccc655bb49b",
+      "timestamp": "2026-06-04T12:32:17.499459+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_ac63c47bf9eb887f4e626460b0817dd1da3ecbaacac3fbb7",
+      "page_id": "81001316-976d-4ebc-97ba-cd4eda8f2f76",
+      "page_title": "Generative Models Large Scale GAN Training for High Fidelity Natural Image Synth",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "73a8cd3f10233402fa62ebd2a2f3bb1776f8ebfa7805a30b54006d848ad30048",
+      "timestamp": "2026-06-04T12:32:17.499463+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_6556446cea28ba088129ca4d6c6a9d5e3ac22c00ad9e5280",
+      "page_id": "db1c389f-2326-4c25-af1f-e460a7c40fc6",
+      "page_title": "Generative Models Neural Discrete Representation Learning 1711 00937",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "7fc990c1ae551c9123793d27a7ea865d583a60e798ed35e56b53d101dd42c5b0",
+      "timestamp": "2026-06-04T12:32:17.499467+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_7ceb7b2c3446fe72100922a7c4395c25f0b7cbb1c7e46d83",
+      "page_id": "a03a00fb-459c-4a15-816c-a032dfd8d7f3",
+      "page_title": "Generative Models Pixel Recurrent Neural Networks 1601 06759",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "a3fb4371bbd637c89386f31c41f9653d0e1949cf5be876acbf0a9c36a7f5218e",
+      "timestamp": "2026-06-04T12:32:17.499470+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_841b334ee7db373e4d60de657799760cbfa0af9f25c05923",
+      "page_id": "8560586c-c731-4970-96cf-cbe8924b3358",
+      "page_title": "Generative Models Unpaired Image to Image Translation using Cycle Consistent Adv",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "cc9fddd612980ce04d361d066ceb18f7bd5202db11e6ee32162f4dccbbcc3365",
+      "timestamp": "2026-06-04T12:32:17.499474+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_912448916b11106842fdd397220d4d4f36d1837468b56ed7",
+      "page_id": "209dbd8e-2415-4d83-b161-7706f9506825",
+      "page_title": "Generative Models Unsupervised Representation Learning with Deep Convolutional G",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "b6fc01aa3a029355a7278779ccaa56d82b9ea87cbd48e41de3d2f15803e70f46",
+      "timestamp": "2026-06-04T12:32:17.499478+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_acf006add19d33a21a157534946d9c4114696345c7941400",
+      "page_id": "b851ef51-3d5f-458c-b75e-4750af2232e9",
+      "page_title": "Generative Models Wasserstein GAN 1701 07875",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "506c7b96ddb4ce2d1e22c87bee625cb033c5ac6440393070a66475fdba750cfe",
+      "timestamp": "2026-06-04T12:32:17.499482+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_22761b5c260cd0f4e73f0acf45d78e0d08c39b498f4303ad",
+      "page_id": "03f8b225-9db9-4c02-a56b-e687a87fb9ad",
+      "page_title": "Graph ML Graph Attention Networks 1710 10903",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "6a60665cc935f1ff29090da2786981740e3d8c89cde975ffb5665fa6f8881aa9",
+      "timestamp": "2026-06-04T12:32:17.499486+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_079463dc21fc1f6941b82b813883c9f36d422e17f6df08b7",
+      "page_id": "4071b72f-ad58-4dbd-b479-91987f6bb9c5",
+      "page_title": "Graph ML How Powerful are Graph Neural Networks 1810 00826",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "3f8d2ca75881d5f32933a2f184a6ef7bda4ead502287568db6f43d40bb6cf198",
+      "timestamp": "2026-06-04T12:32:17.499491+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_bde7ea55192d964234b5c9c9957037c80b2ac2482e195757",
+      "page_id": "322f83f3-90d8-4983-aa4e-7c55dad99324",
+      "page_title": "Graph ML Inductive Representation Learning on Large Graphs 1706 02216",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "d12c3862838370380bbe9eaf511a9e7a69b7d01c2bf378d5c2f41297f89aa1ec",
+      "timestamp": "2026-06-04T12:32:17.499494+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_2fcb4261056c0f38ce1fcebf44b96a8567a9c37e16d8530b",
+      "page_id": "1c25c323-22f5-48ac-8edb-ea75b2df689e",
+      "page_title": "Graph ML Neural Message Passing for Quantum Chemistry 1704 01212",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "6b4b385d73a07ce2f893b9f3ecadf5cdb4f2fe2af25caba78ca3817d89b4d050",
+      "timestamp": "2026-06-04T12:32:17.499499+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_69357c00997282efc0e72859be343ccfe922960b8ff5c3f4",
+      "page_id": "59d9b880-98b7-41da-8393-6d23199811bb",
+      "page_title": "Graph ML Semi Supervised Classification with Graph Convolutional Networks 1609 0",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "e16843af7d681e3eaaa0cf5abbef0f571ff224e2c0acb70beb1d376c072b1404",
+      "timestamp": "2026-06-04T12:32:17.499502+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_a47105665076b1bdc3533a013724ac0b79ad5cac2510e9f7",
+      "page_id": "0aa6d6dc-4595-40d8-907f-b91f784d82c7",
+      "page_title": "HyperTASR: Hypernetwork Driven Task Aware Scene Representations for Robust Manip",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "39c9de4c9a91c029d83fcf131fd3c6ca0350ff2336ce9eb89a56f4fb53cb7887",
+      "timestamp": "2026-06-04T12:32:17.499506+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_b698d98a5484501778a49fdd906cad3a2148e6acba828036",
+      "page_id": "f4e37c4d-a6af-4b8e-92e8-72f36edb5aa5",
+      "page_title": "Multimodal BLIP 2 Bootstrapping Language Image Pre training with Frozen Image En",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "30de7343cc142f5ae55ba153fb6793dcb9e7e6715e0c22076fabdc69d14dd217",
+      "timestamp": "2026-06-04T12:32:17.499510+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_b71a10f330bf6f7a5d6eda9c24fc8f1dce07d35afc0af89b",
+      "page_id": "faf3eef9-c06a-4046-a7d5-6fa8566534fa",
+      "page_title": "Multimodal BLIP Bootstrapping Language Image Pre training 2201 12086",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "e129d19903f99d5c0ae78a05321e2bd3343d17438869a206f84c6c5a46a104b5",
+      "timestamp": "2026-06-04T12:32:17.499514+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_3e2ab83a3799bdbc5da738392214d36e4f3546bf013b2f92",
+      "page_id": "67abb703-fa5d-4fef-957a-aa824348aa62",
+      "page_title": "Multimodal Flamingo a Visual Language Model for Few Shot Learning 2204 14198",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "bf2eab5f8d96953a804a457f5702994459950f31d7931760a607311c72610805",
+      "timestamp": "2026-06-04T12:32:17.499518+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_b0868b5c1db6c848d2b9e4eab607400f08e8759be683791f",
+      "page_id": "56532d50-5e24-4c31-b256-9e981cd622a9",
+      "page_title": "Multimodal Learning Transferable Visual Models From Natural Language Supervision",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "a574daf31da0f62651650adcfc40053f76da3a9ca9dc8622ec9d6deeeae463dc",
+      "timestamp": "2026-06-04T12:32:17.499522+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_7cc9c46ff95dd69c77ec4f341815d623de57dfcf057cd172",
+      "page_id": "2da527b4-909e-43bd-8b21-f88c5b2084aa",
+      "page_title": "Multimodal PaLI A Jointly Scaled Multilingual Language Image Model 2209 06794",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "c26e98059b873236706fb43b313b6231ee97a909a35a073bbef717df9cbd3456",
+      "timestamp": "2026-06-04T12:32:17.499525+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_8d8bd5c946a6c7dccb62bcf05c01cf759192e5026a3785ff",
+      "page_id": "287b101f-93dc-4cae-b522-9562fe5f9d2c",
+      "page_title": "Multimodal VideoMAE Masked Autoencoders are Data Efficient Learners for Self Sup",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "f32396b7cd3d6ee902ae398e63756d573cc663123a79668c597a28b0452c2c70",
+      "timestamp": "2026-06-04T12:32:17.499529+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_cbac548f603c512d4ca01f1f53ecd1c9c0f3cc2ce5a9e1b4",
+      "page_id": "02b2038a-64c7-4fe2-b3d5-607045cb89c7",
+      "page_title": "Multimodal Visual Instruction Tuning LLaVA 2304 08485",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "1a1e33b827ab991fd0f6de5560994864dd65229c9fe4473688cd5c86c04478c6",
+      "timestamp": "2026-06-04T12:32:17.499534+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_6babce30be24d791d18207e5d1c53908d7f53f081fc02d4b",
+      "page_id": "a83ba4e4-77e6-4bfd-ba7b-c2c4bead3f2a",
+      "page_title": "NLP and LLMs Attention Is All You Need 1706 03762",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "d34d8f438cab29d296ee81562e4f145f989933235ea69ddbcb24b48695749081",
+      "timestamp": "2026-06-04T12:32:17.499540+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_927855a80f820926f2d8e4ab8f77fb163bc68591214ac6dd",
+      "page_id": "83e2414c-5d25-40dc-86c1-36edd93a554a",
+      "page_title": "NLP and LLMs BART Denoising Sequence to Sequence Pre training 1910 13461",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "f9a105d1195f907fd078121847f311b561517f896c0bad0f5418248b24c1483e",
+      "timestamp": "2026-06-04T12:32:17.499546+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_c4634cbdf78d9cf27f9aad26297c1b572a64870e4ca4ef2c",
+      "page_id": "9e965955-fe0d-49c1-bd2c-0c1f3a2003f1",
+      "page_title": "NLP and LLMs BERT Pre training of Deep Bidirectional Transformers 1810 04805",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "8626a8c2cd83a0cae99092d5d870b358e34135fed5193934485a0d0a015c8ece",
+      "timestamp": "2026-06-04T12:32:17.499553+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_cb788ff4d7b17c9a9fa4b12f779fce5c1e459e767221444f",
+      "page_id": "c3bd5e5d-d603-4bf5-a94f-644612eb3a82",
+      "page_title": "NLP and LLMs Deep contextualized word representations 1802 05365",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "040e365e5ede8b1bf4a1cc3f1e9782ae0fab372284f4c30824fae56194fead42",
+      "timestamp": "2026-06-04T12:32:17.499559+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_e9c8593164d3ff544b0d489f64514adce1b4ee554e1fb91d",
+      "page_id": "214d74e1-9972-439f-b4e2-31309044b42e",
+      "page_title": "NLP and LLMs Efficient Estimation of Word Representations in Vector Space 1301 3",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "ba0507cb4a37ba5064cc90226c387bc42fbecf3bab16f3649788c2dd2a2780aa",
+      "timestamp": "2026-06-04T12:32:17.499564+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_45ee44ab2d5203a234d951429bcfa0ae0064b45819c35c48",
+      "page_id": "fef51c6f-3f3d-42d7-a77d-9b509cc99b2f",
+      "page_title": "NLP and LLMs Exploring the Limits of Transfer Learning with a Unified Text to Te",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "3f3a0bd494632e88f4e014abf16a334a23c4765147d26c99886b964e28c8bac8",
+      "timestamp": "2026-06-04T12:32:17.499570+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_f120193444373ab5e9f4458651cccb1af169a64afb9f841e",
+      "page_id": "7d96dee0-0bfa-4b6e-b19c-77ba9248aecf",
+      "page_title": "NLP and LLMs Language Models are Few Shot Learners 2005 14165",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "b07c5a6e4df53a357f2487d6db83ff3a31551ca343ac1812561b97b12add29bc",
+      "timestamp": "2026-06-04T12:32:17.499578+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_c846374dfe1b54bb06cc6e690ba2ef722b6e50aca80beacf",
+      "page_id": "f4825a8b-8e7f-48b5-9160-4837c339d66b",
+      "page_title": "NLP and LLMs Llama 2 Open Foundation and Fine Tuned Chat Models 2307 09288",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "041ee61f5f39d201a3b42c527159db5bb39db38b5a953c7c4e8f82f58ad58c16",
+      "timestamp": "2026-06-04T12:32:17.499582+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_448473370221c6bd16ddb66f71d501be87aae69c5aebc45b",
+      "page_id": "94716521-0d12-4eba-8e69-4eec430d32ac",
+      "page_title": "NLP and LLMs Neural Machine Translation by Jointly Learning to Align and Transla",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "aab672ba15d6625db97817544ce3fd6f6ee81f38562aa93b570e249220adab53",
+      "timestamp": "2026-06-04T12:32:17.499586+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_f772a3d9c6ac29c97d373fd56f3bb80952d2ca9a03f2ae0f",
+      "page_id": "16826205-6f70-480b-ab3c-9805924381cf",
+      "page_title": "NLP and LLMs QLoRA Efficient Finetuning of Quantized LLMs 2305 14314",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "d3d707a67a5b5fe0236bd8527b0dc1cad7512b22171c341cf8f0408638dc5131",
+      "timestamp": "2026-06-04T12:32:17.499590+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_0ae6e1f2b9be781ff5dea9eda6ba2d79bbfe21a6b4b83462",
+      "page_id": "25fc6c97-83f3-49f5-8c99-bd67f1282c75",
+      "page_title": "NLP and LLMs Retrieval Augmented Generation for Knowledge Intensive NLP Tasks 20",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "405da586439a522af63e9451d2339e2c0cc9c0237648f1717840567e81e18cde",
+      "timestamp": "2026-06-04T12:32:17.499594+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_4edeefc81713c42748021baf38d849a2906a1e588d8106d5",
+      "page_id": "0c42e726-ceb5-493b-90ed-7b0d69e8cbe0",
+      "page_title": "NLP and LLMs RoBERTa A Robustly Optimized BERT Pretraining Approach 1907 11692",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "c9a0efe92e709833a2862466fa2fb35c917ed2bc80c1bc48d4c64404ee89eb73",
+      "timestamp": "2026-06-04T12:32:17.499598+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_2ff48baa1b24f9acfc3e2216e6efa1b85bc0e5031dc5b211",
+      "page_id": "e9a0a2bd-86ee-4f15-8767-83732a0d0127",
+      "page_title": "NLP and LLMs Training language models to follow instructions with human feedback",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "1fd81bada104bd85219339156215fa20421818b27c0c217ba5e04809725ba519",
+      "timestamp": "2026-06-04T12:32:17.499602+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_49b7b20ac85577e12d5741327837fc1e8bb8eb84ec4092c5",
+      "page_id": "c0bffc3d-09bc-4b42-a783-d9e124bd1a76",
+      "page_title": "NLP and LLMs Transformer XL Attentive Language Models Beyond a Fixed Length Cont",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "19aadf9be8d259e9330472908bd68c9c94ef5c3add8feab77f2cfcfe89517cf0",
+      "timestamp": "2026-06-04T12:32:17.499605+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_bb60dc3af467f4fdb0271593f5c1dbfc3a0c193a5f23ff9c",
+      "page_id": "66be0fd3-2073-4806-a3be-9f18b4d52fe2",
+      "page_title": "Optimization Adam A Method for Stochastic Optimization 1412 6980",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "02aeb2071c4eae8f92e6ca207a13d773f281cbb8abae9a2be1f728eee7a5a4aa",
+      "timestamp": "2026-06-04T12:32:17.499609+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_b91cf9a7178eade143d7700178081b172003d80ddc7dbd42",
+      "page_id": "1cfe22d9-b146-4791-a5bf-1f576562cdeb",
+      "page_title": "Optimization Batch Normalization Accelerating Deep Network Training 1502 03167",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "e3a136f27b62acb2083a7490eae77e82786c958375750ccb8123b3fc48f788a3",
+      "timestamp": "2026-06-04T12:32:17.499613+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_c4e2270d5eaebd0bb970919e2bcfd7738eb103ba3c9d7e9e",
+      "page_id": "31bb590a-0de7-411f-8d52-00f0e0697c83",
+      "page_title": "PointMapPolicy: Structured Point Cloud Processing for Multi Modal Imitation Lear",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "7c2931ea9cd4e3c5bbe8e3dd7e5c18f89ecf31d4dd5f7c2ac7fcc55d9af14b6f",
+      "timestamp": "2026-06-04T12:32:17.499617+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_857dfcaef7ce33743ab354775a69353c62e6248a7b757b13",
+      "page_id": "a6ed8826-6aca-45e3-98d6-7d402900023f",
+      "page_title": "Reasoning and Alignment Chain of Thought Prompting Elicits Reasoning in Large La",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "fddd3f8538e775c8b35994cbe29febf81503aa9242d8e4339db3b4c6190bce4b",
+      "timestamp": "2026-06-04T12:32:17.499621+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_3abdd0c4900bd56e81d6f95677b8dd0892831c3b2a25c7f0",
+      "page_id": "0d43d522-96b5-4263-bb11-878bc538db80",
+      "page_title": "Reasoning and Alignment Constitutional AI Harmlessness from AI Feedback 2212 080",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "65a4b9bde7799dbc5c7bb9db06a7bce352e2b21cda04133cfcc7f2c997e86e24",
+      "timestamp": "2026-06-04T12:32:17.499624+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_7a17dedd49ed1ea0acfe2d556cdfbabc6395e92f56591c1e",
+      "page_id": "281a1ac9-aaac-486b-ace0-6cd076c21fbf",
+      "page_title": "Reasoning and Alignment Direct Preference Optimization Your Language Model is Se",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "1beb17b933457a8c5934d55220829b4e82e980542361f7ea5e012a323fe6ec74",
+      "timestamp": "2026-06-04T12:32:17.499628+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_3457c267d73e34d0558e4043c8f24efb295651cfd89a828f",
+      "page_id": "4bd50c7c-ad77-41e5-85a7-0d3d27b85f85",
+      "page_title": "Reasoning and Alignment GPT 4 Technical Report 2303 08774",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "385b779adb9ddc29f582256a3d13122d5c78a3a3b9d90120566d08e9d2f615ce",
+      "timestamp": "2026-06-04T12:32:17.499632+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_3824a5ece06f54e2bc6229373d4a150f0868fc837a45c61b",
+      "page_id": "c6f6e03c-9cc3-4a70-bb6a-9694cafd49ea",
+      "page_title": "Reasoning and Alignment ReAct Synergizing Reasoning and Acting in Language Model",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "32b50e111ed21e704ff016638cf67c4824732a6551735acbc84f9ef37745750d",
+      "timestamp": "2026-06-04T12:32:17.499635+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_b6dc2ab74c9778df645499744865cdc9ea9a1811c8243e38",
+      "page_id": "96311458-31d0-433a-b198-526168041274",
+      "page_title": "Reasoning and Alignment Toolformer Language Models Can Teach Themselves to Use T",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "dbd085f211537d29ef5d26bf9d2acd7543b6cb175cc78338366c82e817433479",
+      "timestamp": "2026-06-04T12:32:17.499639+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_a33a8d9cd2c46e208da70d94ca1917b50077f32643eca685",
+      "page_id": "687cf1be-c8d6-4c4d-aeb2-ec742afb43a7",
+      "page_title": "Reasoning and Alignment Tree of Thoughts Deliberate Problem Solving with Large L",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "e5a122ba8f6a55646ea46ad5c3c6a691e33fd1cfd83a4d7d9ad10d3937a08c2b",
+      "timestamp": "2026-06-04T12:32:17.499642+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_7fe965067b570266aeff7fd4d77d5d7c27c6ddd5a18852db",
+      "page_id": "36ca7f0c-6823-4b36-8207-84922479e558",
+      "page_title": "Reasoning and Alignment WebGPT Browser assisted question answering with human fe",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "d59c3abbeb28cc4fd1045288d55555aef2aac8fb02f18860246aed22d7275509",
+      "timestamp": "2026-06-04T12:32:17.499646+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_7be86b8f2d65ea23e176270f1add186c8c14449e10b765a9",
+      "page_id": "7799e4ed-3160-45a5-985a-ffa8f1387cbe",
+      "page_title": "Reinforcement Learning Addressing Function Approximation Error in Actor Critic M",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "1f6a647844bf760ef06c7944975f22e6c2e36a94dc8b27895045c1444c0a6b9c",
+      "timestamp": "2026-06-04T12:32:17.499650+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_93b4056bfbd013d4765ce0f29745559a9b2d99763781d04d",
+      "page_id": "8dd3b017-9896-456a-8c34-d5c1fcdba450",
+      "page_title": "Reinforcement Learning Asynchronous Methods for Deep Reinforcement Learning 1602",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "c3aa0a415363c22624e710ee97dc3b92ee242a7802a7c1b27987d72397732445",
+      "timestamp": "2026-06-04T12:32:17.499653+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_5421d13fe1360f5332ff2c7ff8fec83599597e9387772b06",
+      "page_id": "2ee9d2e5-4726-408d-83ad-2f71c6e51239",
+      "page_title": "Reinforcement Learning Continuous control with deep reinforcement learning 1509 ",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "d2850eb7024b854a02bc4c3a46f476b196d09b4ec98e96981103167da551c2a6",
+      "timestamp": "2026-06-04T12:32:17.499657+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_6d6793dbf3f911eb9449f1a502ba27e2b12c4bc1f5f41062",
+      "page_id": "f6142ed3-b438-4736-aed3-c42b3b6890e8",
+      "page_title": "Reinforcement Learning Deep Reinforcement Learning with Double Q learning 1509 0",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "4379b7a88d8db16ae533641f98a1120a87acbafc10ec4820f80b6cf631d09480",
+      "timestamp": "2026-06-04T12:32:17.499661+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_0f9e83106a17f10a8e4a5b01220d0cd275271f450a7e9b23",
+      "page_id": "1ac7f83e-a516-435f-b35b-b55c20dea9e1",
+      "page_title": "Reinforcement Learning Dueling Network Architectures for Deep Reinforcement Lear",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "41aeac1ba1c222d04ecfca872da95d42c136f6e403c0cdddf3e32ffd5188f1be",
+      "timestamp": "2026-06-04T12:32:17.499664+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_685602fcaec9eacfc6c53370819849501dc62ea4c6710329",
+      "page_id": "ac4d0d63-3b33-4dc8-a2ed-01173027c4b7",
+      "page_title": "Reinforcement Learning Hindsight Experience Replay 1707 01495",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "1578f04f56f43d19e62caf6f5c61fbb3fde8590a281bd7e38cd4ba8f18f8ba63",
+      "timestamp": "2026-06-04T12:32:17.499668+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_0df1cdcb07915ad3383ea15c636f4f8dc6c97a6c8579e5d0",
+      "page_id": "c52891b9-847b-4ea3-a281-c0e82b291083",
+      "page_title": "Reinforcement Learning Mastering Chess and Shogi by Self Play with a General Rei",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "0ae949e38311bb38dc5841e17078edfeb9ffac527da109bdd74b7bc8e2067396",
+      "timestamp": "2026-06-04T12:32:17.499671+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_d36fef16c5f0620e72e4b2038fa28af15d10153bf103e071",
+      "page_id": "5452c677-7182-48ba-b9a2-6f62aaa0e84d",
+      "page_title": "Reinforcement Learning Mastering the game of Go with deep neural networks and tr",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "eb92d0baadbe9b81432fb4b8f34ab84c30374afc253dc3883b805ab06646f77f",
+      "timestamp": "2026-06-04T12:32:17.499675+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_23e7afe0b39c1c2076cd51ebec41197af34abff26ade435b",
+      "page_id": "20fc4e49-9baa-4b5a-8703-13fe581a440a",
+      "page_title": "Reinforcement Learning Playing Atari with Deep Reinforcement Learning 1312 5602",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "61d80898fce595560128f7e0fb61952e7480ab37d96163737da7b50f31ee20e0",
+      "timestamp": "2026-06-04T12:32:17.499678+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_4f0d9de6a97fd5347a81888f0bdab11aca4aa9891c3c9334",
+      "page_id": "e91aeca9-39c6-429f-a30a-19efe083785c",
+      "page_title": "Reinforcement Learning Proximal Policy Optimization Algorithms 1707 06347",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "45a60c3ba1d9e2bed97bc7a934ccc9b4e42f2e1025eead0e277cd919d3afa4aa",
+      "timestamp": "2026-06-04T12:32:17.499682+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_c275dbc88b363a0e302c6da7a3b355a0189caef1def56f43",
+      "page_id": "3b6916ae-3350-46ae-b2ea-45f9110e018b",
+      "page_title": "Reinforcement Learning Rainbow Combining Improvements in Deep Reinforcement Lear",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "7f2a24f0182f802d359e06a45217ce63d6c7ef24ee19a726c029839b6ae27e00",
+      "timestamp": "2026-06-04T12:32:17.499685+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_133ba00ab59b487e29e05d53d2370f7cc7cfe16a4ba39b13",
+      "page_id": "b38e4ad0-0315-419e-a1ad-6c27022fb1e6",
+      "page_title": "Reinforcement Learning Soft Actor Critic Off Policy Maximum Entropy Deep Reinfor",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "f37ea2c13a510b0f0fe47448f547a402fbb1294607f83978a14d09a44faa88da",
+      "timestamp": "2026-06-04T12:32:17.499688+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_81cfabaed42c757acb47f6fea5b5ab67f7746ef4a2775635",
+      "page_id": "1adb5649-35ae-4efd-9afe-77ef87bede9f",
+      "page_title": "Reinforcement Learning Trust Region Policy Optimization 1502 05477",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "adcaf0a22cdfb33fbe1937d84c43818b95f00c30811673bb4a51df6415abc8dc",
+      "timestamp": "2026-06-04T12:32:17.499692+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_d93e03d965086e264d964f538e0562a3951647ffcce79109",
+      "page_id": "a031e657-c12e-46f3-b709-fca33d5a4990",
+      "page_title": "Robotics and Agents A Generalist Agent Gato 2205 06175",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "f1ddd83376b11a18829b2b083920afe12200669e748ad29492c70b350f35cfd1",
+      "timestamp": "2026-06-04T12:32:17.499695+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_8ad89f81f978b6de6eb8f517e538128e5d7d3fe8de772877",
+      "page_id": "9cde8fff-5995-4493-b678-e4a3d5f9893c",
+      "page_title": "Robotics and Agents Diffusion Policy Visuomotor Policy Learning via Action Diffu",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "7b054afcc899e04c4a1b5cd57b6b94f11315504701864533b73f8a54a6a97045",
+      "timestamp": "2026-06-04T12:32:17.499699+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_2a33e6ec1c1bd561f997ba49dbd7c06f62fc61939a7c23c9",
+      "page_id": "abcda95f-a08b-4b98-983d-118f20977e62",
+      "page_title": "Robotics and Agents Do As I Can Not As I Say Grounding Language in Robotic Affor",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "35403ca4dab66f57d98c799268222a0fbf733f9899f2389da9bf01016975a33d",
+      "timestamp": "2026-06-04T12:32:17.499703+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_741a110ee74c251bfff9fb6c283dbc021c73fec3b36203d9",
+      "page_id": "fe4e48d9-1f36-4eac-b80b-492b2e6d9dc6",
+      "page_title": "Robotics and Agents PaLM E An Embodied Multimodal Language Model 2303 03378",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "c690e6197c4d32e433b164203f49bdf4c2cf03f63980e186b46930fdb155fea3",
+      "timestamp": "2026-06-04T12:32:17.499706+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_6d75a6c1e8da4371ded8910e5bb23506c08924a4745783a5",
+      "page_id": "e20eb563-da94-483e-b4c3-435f2b6b3c28",
+      "page_title": "Robotics and Agents RT 1 Robotics Transformer for Real World Control at Scale 22",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "9361065d53a764ae0dfb9d89735b69f00faade9962379661c071f6fd88be2d39",
+      "timestamp": "2026-06-04T12:32:17.499710+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_479bd70dbe5c11b9adf9ceea7e664c06f213cd94c73bdd73",
+      "page_id": "ac40706e-404c-4852-ad9d-7a7d0cad9263",
+      "page_title": "Robotics and Agents Robotic Transformer 2 Vision Language Action Models 2307 158",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "ac5bcb1ae94eb7a91944f2962bf57385dfe0e0dca2d63ed5328b9823103ce392",
+      "timestamp": "2026-06-04T12:32:17.499713+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_3a46d97744f0bdcc26113aef20cdaf3ddfc9fa5fc4ab7f0a",
+      "page_id": "4cf748c6-d8d8-4754-b158-1c1888db211d",
+      "page_title": "SAM2Act: Integrating Visual Foundation Model with A Memory Architecture for Robo",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "b45b057e0549d2eed250717f3e12c2746a0a091e6adec3d56898f3cc7ba48dfc",
+      "timestamp": "2026-06-04T12:32:17.499716+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_fd5f9348ea05814bd63b0ef4e377ec0f41bb71975ab4444d",
+      "page_id": "be75a43e-b70a-490a-b678-106215eebc25",
+      "page_title": "Self Supervised Learning A Simple Framework for Contrastive Learning of Visual R",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "b8440c0fec486022fa5e5d7d58d93b9ab476c0bcaa4a9a6ba6294a3af8fdea5d",
+      "timestamp": "2026-06-04T12:32:17.499720+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_2dba7df0eff0808e6d4a357068702dfe79a5838db2cb2920",
+      "page_id": "d61f641f-a20d-4941-adc0-8ecc54ef8854",
+      "page_title": "Self Supervised Learning Bootstrap Your Own Latent A New Approach to Self Superv",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "375a758e3845e5e14e0e2562120097688b146f36c4eec9e00f01d8c148637842",
+      "timestamp": "2026-06-04T12:32:17.499723+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_b6fe7775e53f2e1255cf6eba6baaf74bb9b820ce385566c7",
+      "page_id": "f021411f-1b01-496f-840a-807e101c173e",
+      "page_title": "Self Supervised Learning DINOv2 Learning Robust Visual Features without Supervis",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "e04f3da7f1acc82b2e1d949293acfdbdfaf0905e9e0cdc5d225985ad9bd011a4",
+      "timestamp": "2026-06-04T12:32:17.499726+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_ad196b542f2fad0bc5cd14af719b1237a73a66445b16e848",
+      "page_id": "de63c6f7-c7e9-4008-ae71-fa286c244972",
+      "page_title": "Self Supervised Learning Emerging Properties in Self Supervised Vision Transform",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "618d41b7636f686ff4ee8831b2972b99d3f3d4a9dfef27358e33cb08df30dc58",
+      "timestamp": "2026-06-04T12:32:17.499729+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_4579d5fc28fff1a754788910f0ef9fcc8803be148a4f56b9",
+      "page_id": "b3070bb0-5f5b-4245-a874-959c49f64c3a",
+      "page_title": "Self Supervised Learning HuBERT Self Supervised Speech Representation Learning 2",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "101928a98ec5c3d84ce9c5af4d853bb5785bc1c24071d711a55391c90c6fd0e5",
+      "timestamp": "2026-06-04T12:32:17.499733+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_7b485595a3a8f5d1d2fd19bf08b12ebe99db17fd7150c71c",
+      "page_id": "53817132-8183-47a3-8907-02217b9d2a32",
+      "page_title": "Self Supervised Learning Masked Autoencoders Are Scalable Vision Learners 2111 0",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "8368e9e70b6c360bc4f76ba942bf7b1da14a5672af9d9499d1580a1f0a96bf0b",
+      "timestamp": "2026-06-04T12:32:17.499737+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_dbef1a20026cd23a0a3f5a48e34d4f443068c990229a33c0",
+      "page_id": "4662a4da-d25d-425f-a415-eb81aeaf0e17",
+      "page_title": "Self Supervised Learning Momentum Contrast for Unsupervised Visual Representatio",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "d7851f3b60b7a5b5850da657d06bdb8488a5056be72a42b69e11471707667f92",
+      "timestamp": "2026-06-04T12:32:17.499740+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_6b82f3e7cf4a0bc5113cd3217257dce8cd4354a7219519e4",
+      "page_id": "9b566179-5b0d-4455-884b-45b65decdf8a",
+      "page_title": "Self Supervised Learning Representation Learning with Contrastive Predictive Cod",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "78ea96381dc56a61d2798930f329b400d94c17f35635a8c69e4ba63a49710dcb",
+      "timestamp": "2026-06-04T12:32:17.499743+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_34a160e9e3498891208ea3f967c80946b0a558d5ccbc59fe",
+      "page_id": "3cfdecbe-9c11-40e6-98cc-0b5b3d977489",
+      "page_title": "Self Supervised Learning wav2vec 2 0 A Framework for Self Supervised Learning of",
+      "score_bps": 9375,
+      "threshold_bps": 7800,
+      "cert_hash": "40a3ea000bca4b4986f9eb45e84d054be5be0599a291ccd26b52abe809bdc0a2",
+      "timestamp": "2026-06-04T12:32:17.499747+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_9ca8e3f5b858df3a4e851cf36b2c8e99f018d8317a9018f9",
+      "page_id": "1f185e30-252b-465e-9966-66bb117058b4",
+      "page_title": "V JEPA 2: Self Supervised Video Models Enable Understanding, Prediction and Plan",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "6c3208e4fc33f5ec4bf2c9f845079538716c708d5adfd114ea635cc9212cbefe",
+      "timestamp": "2026-06-04T12:32:17.499752+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_3f9cd1c272f6054bb589649ab18bd5da6fa58d1d08e9e8d8",
+      "page_id": "c5c3e180-0c06-4687-891a-15ec2f33f065",
+      "page_title": "Vision An Image is Worth 16x16 Words Transformers for Image Recognition at Scale",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "c218b7c6f0a01dfcfd7e384b097f98c25aa82fa0a9b2cd104d24227995e4066a",
+      "timestamp": "2026-06-04T12:32:17.499758+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_4cbff5c79cf64674f81e149751fd7544c33f511fdbfafa86",
+      "page_id": "e56268fa-c9af-4ca9-9318-95530ce60d5c",
+      "page_title": "Vision Deep Residual Learning for Image Recognition 1512 03385",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "7c959b7144c13c068221a19f61c60173e4b8e055f96b9596d38c8c0e763b3222",
+      "timestamp": "2026-06-04T12:32:17.499763+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_398fd270723ed3643e62b1f2f4083706c7979fdbd7cbff0c",
+      "page_id": "e36f6d80-a1f8-43b3-b0b8-2b695e9f89b6",
+      "page_title": "Vision Densely Connected Convolutional Networks 1608 06993",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "441a5da9e74f4aedd4585f0e3129fa22ebcfe374a251a76cd35756f470d85b5e",
+      "timestamp": "2026-06-04T12:32:17.499768+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_c0d87551887287a0ad2de1b8fc09aab7e8e5c3290276cf80",
+      "page_id": "c9e92af5-a823-43c8-8bbd-9ad2df59db0d",
+      "page_title": "Vision EfficientNet Rethinking Model Scaling for Convolutional Neural Networks 1",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "b8b5ca0814d17f5286196d4dcac439e83a1b5964f99a81c3031001dc6ee2256c",
+      "timestamp": "2026-06-04T12:32:17.499774+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_f8a7204cf061329ff83c7d00ee38f2f1f5c2e0d25dabe2c8",
+      "page_id": "145cf39b-5390-4c26-b9ce-3f7f4c320334",
+      "page_title": "Vision End to End Object Detection with Transformers 2005 12872",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "0fbdfb8d962d56b15aea78753494bad2991892bda6f8a075c312078b6cc731df",
+      "timestamp": "2026-06-04T12:32:17.499778+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_b9557d3f23f5eaac414cb6b1bd3876be34595c60e2775ca6",
+      "page_id": "3c0916de-e4db-4c0e-a2d7-0873f70af433",
+      "page_title": "Vision Faster R CNN Towards Real Time Object Detection 1506 01497",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "8f0d06947c473b6bc2269c7a4d084fb3f75404977363772b103ca4d3310d1978",
+      "timestamp": "2026-06-04T12:32:17.499782+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_8ee68dd5c8ccc2c635f08dd427572883a7c8d45d76e62add",
+      "page_id": "4225cf85-2115-4d65-9d37-d561c25735bc",
+      "page_title": "Vision Going Deeper with Convolutions 1409 4842",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "b4effddf0b20e9591bc279fdab8172168a471f92954a87c0fe24f32caaf4a121",
+      "timestamp": "2026-06-04T12:32:17.499786+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_5b922f88e9a700b21532852d152f77a6a46c7c61fb607d2e",
+      "page_id": "80786e66-17d7-4c45-a1ad-2d704d6279eb",
+      "page_title": "Vision Mask R CNN 1703 06870",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "fef3dcdbfe5e4f9dda1f591609c7a8cd2b65bb891f899ec7e4edbc3df6222ea6",
+      "timestamp": "2026-06-04T12:32:17.499791+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_428ee834f7c92cfcd63b31d5dca3d6266b857f7be6fa39fd",
+      "page_id": "e7c1181e-cbb5-4d6c-a2d7-4607c6c1cb6e",
+      "page_title": "Vision MobileNets Efficient Convolutional Neural Networks 1704 04861",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "6c34fc1246ba7afe1472fcce71edcd9f38b172efe1e16395fe6995b422c64dfa",
+      "timestamp": "2026-06-04T12:32:17.499798+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_e283a5823bb0321365b0469fffc04fc8d3380ef61db8c839",
+      "page_id": "5c1a00fa-596c-4096-9505-3526b84f3976",
+      "page_title": "Vision Segment Anything 2304 02643",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "795b1f3bc3d1bd92f9a1d23a2825b8169c55bc6c2c6f5179da70081fdb582219",
+      "timestamp": "2026-06-04T12:32:17.499801+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_1af2c7b86a0793819ccf6137a3e23041b913b3b572bf3ab6",
+      "page_id": "9259559d-18dd-4bb3-bf0d-48494a3d7463",
+      "page_title": "Vision Swin Transformer Hierarchical Vision Transformer 2103 14030",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "2b2eec4ebf3f77afc49d0375c1bc8ae96ec7bd882056af2a5ff6f4720dc2f00d",
+      "timestamp": "2026-06-04T12:32:17.499805+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_e4c5dae410eba520a9cfdac1c91a2f0cc2851bf0e96106d0",
+      "page_id": "b0c67690-aea0-4f38-b46b-598f739a16dc",
+      "page_title": "Vision Very Deep Convolutional Networks for Large Scale Image Recognition 1409 1",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "d198c5225c6cb587cda2aa126aa7fc58728813e58acf5828dc62cfce711d46c8",
+      "timestamp": "2026-06-04T12:32:17.499809+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_0d75fb9b640360fd2cc4df82a1077ed6d21bedcd0691832b",
+      "page_id": "b3230d68-ee05-44a8-9539-cdae8fd50a28",
+      "page_title": "Vision You Only Look Once Unified Real Time Object Detection 1506 02640",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "40fc41cf761eeaf7aa97803e995f5902e1a518e9cd7a8295b66df703ecb03632",
+      "timestamp": "2026-06-04T12:32:17.499812+00:00"
+    }
+  ]
+}

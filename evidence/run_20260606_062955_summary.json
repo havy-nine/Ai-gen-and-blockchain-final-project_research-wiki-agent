@@ -1,0 +1,37 @@
+{
+  "run_id": "run_20260606_062955",
+  "timestamp": "2026-06-06T06:29:56.168279+00:00",
+  "threshold_bps": 7800,
+  "llm_provider_requested": "mock",
+  "eval_provider_requested": "mock",
+  "llm_provider_used": "mock",
+  "fallback_message": "",
+  "source_files": 2,
+  "chunks": 22,
+  "fixture_chunks": 1,
+  "pages": 3,
+  "passed": 2,
+  "failed": 1,
+  "certificates_on_chain": 2,
+  "payments": 10,
+  "chain_records": [
+    {
+      "tx_hash": "0xmock_cert_687473f0c6729fae709db4e2e2d83ef8a4a1f3d487225ffd",
+      "page_id": "ecd28ffa-3011-449a-8f87-657f25d37739",
+      "page_title": "CVPR2026 ActiveVLA Robotic Manipulation",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "de364f18ad1996d7443550ddca0ddceb6d77b10b77068fd70602f8abb3766061",
+      "timestamp": "2026-06-06T06:29:56.168165+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_75aad1ff3ee94d85b18629719e0dbbd50f3568b5b367ac4d",
+      "page_id": "4ba7cd37-e6b2-4436-b48b-81466d852177",
+      "page_title": "CVPR2026 DemoFunGrasp Dexterous Functional Grasping",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "503c567c92fad3b49eaa42cbbd9a96e1a662fe10b809309dd76d288fcdb4caf2",
+      "timestamp": "2026-06-06T06:29:56.168172+00:00"
+    }
+  ]
+}

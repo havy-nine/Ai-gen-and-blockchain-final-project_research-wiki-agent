@@ -1,0 +1,45 @@
+{
+  "run_id": "run_20260604_121901",
+  "source_summary": "evidence/run_20260604_121901_summary.json",
+  "contract": "PageCertificateRegistry.certifyPage",
+  "note": "Prepared payloads only. Submit through MetaMask/Remix after explicit approval and funded test wallet.",
+  "payload_count": 3,
+  "payloads": [
+    {
+      "page_title": "3D Diffuser Actor: Policy Diffusion with 3D Scene Representations",
+      "mock_tx_hash": "0xmock_cert_36f36731b06cbc527ee9c17727e7adaed5f4500aaf20fb1d",
+      "certifyPage_args": {
+        "pageId": "4d4937ea-3f0e-4966-b0bf-472b0411d570",
+        "pageHash": "0x63e327d4295d8d3138e31a6377df21de57e165ece31eb4c2803de8c2f9d3b5de",
+        "certHash": "0x9da3a3b3c3acc643e72a7bf8bca7af6e1cd223b3481aca3fb5b92ec0a44a0263",
+        "scoreBps": 10000,
+        "thresholdBps": 7800,
+        "evaluator": "0x0000000000000000000000000000000000000001"
+      }
+    },
+    {
+      "page_title": "Adapt3R: Adaptive 3D Scene Representation for Domain Transfer in Imitation Learn",
+      "mock_tx_hash": "0xmock_cert_b6c1daede5c3b6dfcde3e2922d70e0f991cfa30d28f9e3db",
+      "certifyPage_args": {
+        "pageId": "7b2b858c-bee8-4fdf-bab1-b8cbc1d06475",
+        "pageHash": "0x3aada64e523c36a530f814e9504921340f31932c0e2b929823aaac10cd7feb06",
+        "certHash": "0xb06499136494e5339908be5c5971205084865c3ba47468599fc8ffdaebee1d72",
+        "scoreBps": 10000,
+        "thresholdBps": 7800,
+        "evaluator": "0x0000000000000000000000000000000000000001"
+      }
+    },
+    {
+      "page_title": "Diffusion Models Classifier Free Diffusion Guidance 2207 12598",
+      "mock_tx_hash": "0xmock_cert_9a91eb4ce93513f2bedc61790fa2d7b316378fda37e263cc",
+      "certifyPage_args": {
+        "pageId": "35ad7243-37c4-4742-b184-d18cbeac0669",
+        "pageHash": "0x7d6159bafaaf73330b188507c93e6768008f82df2936f7b01a10f90de7e60522",
+        "certHash": "0x8fcabce5a0db9ac43e14dd203684871037ef2b9e34f822817b14744357c46191",
+        "scoreBps": 10000,
+        "thresholdBps": 7800,
+        "evaluator": "0x0000000000000000000000000000000000000001"
+      }
+    }
+  ]
+}

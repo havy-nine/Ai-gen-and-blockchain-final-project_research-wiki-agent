@@ -1,0 +1,64 @@
+{
+  "run_id": "run_20260616_074835",
+  "timestamp": "2026-06-16T07:49:13.605091+00:00",
+  "threshold_bps": 7800,
+  "llm_provider_requested": "ollama",
+  "eval_provider_requested": "ollama",
+  "llm_provider_used": "mock+ollama",
+  "fallback_message": "",
+  "source_files": 5,
+  "chunks": 62,
+  "fixture_chunks": 1,
+  "pages": 6,
+  "passed": 5,
+  "failed": 1,
+  "certificates_on_chain": 5,
+  "payments": 18,
+  "chain_records": [
+    {
+      "tx_hash": "0xmock_cert_98bcb47e5ba50dda48568df00dc24d7898e204d18443817f",
+      "page_id": "423f15d5-05c0-4a8b-a79f-b01f1357140b",
+      "page_title": "3D Gaussian Splatting for Real Time Radiance Field Rendering",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "45f36f78a53ba028eaff780c78771d6a57faf41200fc47584ed2f29b35615ebe",
+      "timestamp": "2026-06-16T07:49:13.604760+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_084ca0752f126bf96ddd069bfebfc88fcb6d87d05d9aeebc",
+      "page_id": "b5124727-347a-485c-8d1f-ca6f65309d35",
+      "page_title": "Diffusion Policy Visuomotor Policy Learning",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "32647d475b1dfa7a2ebaec0e5c953b17f02a1bebd939ffd52b7d8e3f366bd8c6",
+      "timestamp": "2026-06-16T07:49:13.604773+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_cd0f60d7878ab1243b6edd342fd9544a2edfc202a464b420",
+      "page_id": "7685b24b-6bba-4967-a6cd-8cac0629e461",
+      "page_title": "RT 1 Robotics Transformer for Real World Control",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "8f22ef6ab60f13be736de993ef22b6fa37ab304fae8ce38e489f8c2a6ba9d743",
+      "timestamp": "2026-06-16T07:49:13.604793+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_74839357c16b0bc03c991b8c104fe659d610961412839131",
+      "page_id": "a147c48d-90bd-4b45-99c2-f7f82b558524",
+      "page_title": "RT 2 Vision Language Action Models",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "7c7ba28ca799199a2d24b9fd8134afb154811eb9411dbff95a68ce88e6afee91",
+      "timestamp": "2026-06-16T07:49:13.604803+00:00"
+    },
+    {
+      "tx_hash": "0xmock_cert_3b80a0d8cd0aaa2637c96f012478138123ee90f07633e6f6",
+      "page_id": "5ddfc05d-80d7-49c8-af73-ea8e8fc6230c",
+      "page_title": "Segment Anything",
+      "score_bps": 10000,
+      "threshold_bps": 7800,
+      "cert_hash": "ac82795d57169896f330d9fc7e1fb418b0251764cd277c523e390368df8ac6ec",
+      "timestamp": "2026-06-16T07:49:13.604812+00:00"
+    }
+  ]
+}

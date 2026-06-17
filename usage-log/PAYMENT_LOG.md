@@ -1,0 +1,45 @@
+# Payment Log
+
+- 0xmock_pay_ef5bf304f9df1040efab0748f408addb782b8efde6b75aa4 | finding=f_5d6428fd81 | page=3D Gaussian Splatting for Real Time Radiance Field Rendering | amount_wlc=0.01
+- 0xmock_pay_91ff3fa63310d9309d0772260ebc670f994e202ff7f1e6a2 | finding=f_570e7ddfaf | page=3D Gaussian Splatting for Real Time Radiance Field Rendering | amount_wlc=0.01
+- 0xmock_pay_c6c80f44440cda882b9c99b1dbe95fad7902cd795efe910d | finding=f_d7b0c8cd0b | page=CLIP Learning Transferable Visual Models | amount_wlc=0.01
+- 0xmock_pay_7f428cb96c51fcbdf7cda815e388d820f1483c590d19a748 | finding=f_304aeb9ad5 | page=CLIP Learning Transferable Visual Models | amount_wlc=0.01
+- 0xmock_pay_89d77947f1009f954bc4be8fcce1d0cffca665b3c61e9f6f | finding=f_0913834804 | page=CLIP Learning Transferable Visual Models | amount_wlc=0.01
+- 0xmock_pay_0f30704ca7ab458b88bcadd02f040654a7118a121f098de5 | finding=f_4d967e1395 | page=DETR End to End Object Detection with Transformers | amount_wlc=0.01
+- 0xmock_pay_a51e28860dfc7b3360c5c2575aca5e127485793be66145d2 | finding=f_9e08348f96 | page=DETR End to End Object Detection with Transformers | amount_wlc=0.01
+- 0xmock_pay_9d57203152f27adccb3b8e0850773c31e47005178b8796aa | finding=f_fa3f1978ec | page=DETR End to End Object Detection with Transformers | amount_wlc=0.01
+- 0xmock_pay_e3b7f10905cfdaa278c4542da30872a3dbd0fa3bdcdc3196 | finding=f_0b0a6b31fc | page=DINOv2 Learning Robust Visual Features without Supervision | amount_wlc=0.01
+- 0xmock_pay_2dcab75cac445f199ad1202c78011831acc612430f61a7cd | finding=f_cea7cda999 | page=DINOv2 Learning Robust Visual Features without Supervision | amount_wlc=0.01
+- 0xmock_pay_36ae35bdc7dfd72692ee3730aef1cf0dbc7d4b35eb0060fb | finding=f_196dec46b9 | page=DINOv2 Learning Robust Visual Features without Supervision | amount_wlc=0.01
+- 0xmock_pay_d2ae2bfa884d86cf7d89c7f844bce9efcc52b6218848a80a | finding=f_0b07c37fea | page=DINOv2 Learning Robust Visual Features without Supervision | amount_wlc=0.01
+- 0xmock_pay_a9e9aa4d3bb6cbcb6ce20fe43efb3b6019531daf4b254507 | finding=f_baf0009764 | page=DINOv2 Learning Robust Visual Features without Supervision | amount_wlc=0.01
+- 0xmock_pay_c7a5874f6e7309848199401d56e7bb0a40ac1dd9280239f2 | finding=f_f343284f3a | page=Diffusion Policy Visuomotor Policy Learning | amount_wlc=0.01
+- 0xmock_pay_feb6ca3d636980e45339314668bfbc48acac02ec273dd51b | finding=f_d53f21641a | page=Diffusion Policy Visuomotor Policy Learning | amount_wlc=0.01
+- 0xmock_pay_451024ccd20e400c43b4dd6f5b37af8a0b8467e26eded122 | finding=f_08139f8dd2 | page=Diffusion Policy Visuomotor Policy Learning | amount_wlc=0.01
+- 0xmock_pay_5dde45bedfd0aaba5ba6af830479d967b53e49497a28b183 | finding=f_cad2e82342 | page=Diffusion Policy Visuomotor Policy Learning | amount_wlc=0.01
+- 0xmock_pay_a8ae5c5122d8b0878cc4020b62afadfb236502aa71e8393e | finding=f_260b6ebe5d | page=Diffusion Policy Visuomotor Policy Learning | amount_wlc=0.01
+- 0xmock_pay_4df0d69f56d12fac0a5aa2a60fac37e39e8d3f747bf8b8a6 | finding=f_a4acd499ae | page=Diffusion Policy Visuomotor Policy Learning | amount_wlc=0.01
+- 0xmock_pay_2452007f86216d6c2907d97610124fec2542264dd7a225cd | finding=f_c450ce8680 | page=LLaVA Visual Instruction Tuning | amount_wlc=0.01
+- 0xmock_pay_cb55d9d89eafb68bf77c7df6552f52e0e23c78fe001fb448 | finding=f_9aeed280d7 | page=LLaVA Visual Instruction Tuning | amount_wlc=0.01
+- 0xmock_pay_8f6116e24d0aa0c32347d684308d3583ef0a37b7f46243af | finding=f_b979351155 | page=LLaVA Visual Instruction Tuning | amount_wlc=0.01
+- 0xmock_pay_7a5d62adbd4172505935f0095294f217b7a46198b3a0724d | finding=f_7db52c7f82 | page=LLaVA Visual Instruction Tuning | amount_wlc=0.01
+- 0xmock_pay_f0fc6136d9022adea54bba42012fa5327d493e75a241ed10 | finding=f_7866690243 | page=NeRF Representing Scenes as Neural Radiance Fields | amount_wlc=0.01
+- 0xmock_pay_825a8de6245b920e193d97d1d549ea9a8a71da68d75bba21 | finding=f_718e5a046c | page=NeRF Representing Scenes as Neural Radiance Fields | amount_wlc=0.01
+- 0xmock_pay_37e72c8a5cd71b418e53327510b4cc1181930fa63d7c315f | finding=f_eac0889d00 | page=NeRF Representing Scenes as Neural Radiance Fields | amount_wlc=0.01
+- 0xmock_pay_c307d42e6ab1b14a1c1b0e45696f23a7767c788d58023a44 | finding=f_32e984a2fb | page=Open X Embodiment Robotic Learning Datasets and RT X Models | amount_wlc=0.01
+- 0xmock_pay_e0f8a3381e773efd98db7e57ff5eb9f7707349cbe812f846 | finding=f_299fdaf7fa | page=Open X Embodiment Robotic Learning Datasets and RT X Models | amount_wlc=0.01
+- 0xmock_pay_8061e01a86e980e14e2cc1be73ef99bebfd3942a0f220bfc | finding=f_b94486c11c | page=PaLM E An Embodied Multimodal Language Model | amount_wlc=0.01
+- 0xmock_pay_46c9870cc76a595fa45d4e12b04e13aa3e356b9188b861bf | finding=f_8198fc3bb1 | page=PaLM E An Embodied Multimodal Language Model | amount_wlc=0.01
+- 0xmock_pay_76b4d3ec5bd81465b9e10f331a15d11a69ad3d7301bc65ed | finding=f_6e7719e89f | page=PaLM E An Embodied Multimodal Language Model | amount_wlc=0.01
+- 0xmock_pay_a2c14c875174d711d1acab70b8b582394d697faf3a0e0619 | finding=f_37f4641c0b | page=PerAct Perceiver Actor for Multi Task Transformer Robotics | amount_wlc=0.01
+- 0xmock_pay_8e827f4e50fc5a1c600a79d460b86b644fa41dce37043853 | finding=f_144728beee | page=PerAct Perceiver Actor for Multi Task Transformer Robotics | amount_wlc=0.01
+- 0xmock_pay_477db1e46874f51d8c891898bec0cd349caa7341709970cb | finding=f_1d365ff395 | page=PerAct Perceiver Actor for Multi Task Transformer Robotics | amount_wlc=0.01
+- 0xmock_pay_a5b686989b86669acfee411621c2d97b9b849a689562f7d1 | finding=f_be36d17949 | page=RT 1 Robotics Transformer for Real World Control | amount_wlc=0.01
+- 0xmock_pay_8962928c000dfc8bee723686baa06114978fa79c7e8f130a | finding=f_3e1278f103 | page=RT 1 Robotics Transformer for Real World Control | amount_wlc=0.01
+- 0xmock_pay_3f74c562a874e4c55ef7b1d785186ea951f181248093e651 | finding=f_50a834869e | page=RT 1 Robotics Transformer for Real World Control | amount_wlc=0.01
+- 0xmock_pay_032b4ddb119840f0a654846dd2bf65c3c0e3ee4a60e7b964 | finding=f_96e87c899b | page=RT 2 Vision Language Action Models | amount_wlc=0.01
+- 0xmock_pay_b36290a2d9af749c3cd6fb1c34c0eb7252a5711c46a0fb50 | finding=f_155018484c | page=RT 2 Vision Language Action Models | amount_wlc=0.01
+- 0xmock_pay_17be55f9dbb39fe55c01a1dee7a75ba80034af6dc4e4dd50 | finding=f_4b8122d838 | page=RT 2 Vision Language Action Models | amount_wlc=0.01
+- 0xmock_pay_161295b8c0afc68766d3cf4cd6189d578413b5c4f8a49fae | finding=f_e7d889f3c0 | page=Segment Anything | amount_wlc=0.01
+- 0xmock_pay_a655ac48265a6c1a3cfdd0af045cb7c8fb2332d2120a26be | finding=f_c5ca2463d5 | page=Segment Anything | amount_wlc=0.01
+- 0xmock_pay_9f026577bd38a08bf68d5a99e059cfebb071b9b30a5ef94f | finding=f_1e681aa274 | page=Segment Anything | amount_wlc=0.01
