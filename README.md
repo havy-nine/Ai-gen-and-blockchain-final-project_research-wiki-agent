@@ -15,6 +15,13 @@ Researchers and AI students collect papers faster than they can organize, search
 
 WorldLand Knowledge Wiki Agent helps by running a tool-using pipeline: ingest sources, generate wiki pages, evaluate claims against evidence, record usage logs, and keep failed or hallucinated pages local-only.
 
+## Project Pipeline
+
+![Full system pipeline](slides/pipeline/full_pipeline_slide4.png)
+
+Pipeline PDF: [`./slides/pipeline/full_pipeline_slide4.pdf`](slides/pipeline/full_pipeline_slide4.pdf)
+
+
 ## 4. Installation and Execution Instructions
 
 The runnable implementation is in [`./code`](code/).
@@ -72,14 +79,17 @@ Real payment or public-chain publication would require explicit human approval a
 
 ## 9. Demo Video Link, 5 Minutes or Less
 
-Demo video file: [`./demo-video/demo_video.webm`](demo-video/demo_video.webm)
+Demo video file: [`./demo-video/demo_video.mp4`](demo-video/demo_video.mp4)
 
-Status: recorded local demo video. Target length is under 5 minutes.
+Status: recorded local demo video in MP4 format. Length is about 4 minutes 43 seconds, under the 5-minute requirement.
+
+<video src="demo-video/demo_video.mp4" controls width="720"></video>
 
 ## 10. Links to Paper/Report and Slides
 
 - Paper/report: [`./paper/final_report_worldland_knowledge_wiki_agent.docx`](paper/final_report_worldland_knowledge_wiki_agent.docx)
 - Slides: [`./slides/final_proj_20261136.pptx`](slides/final_proj_20261136.pptx)
+- Pipeline slide PDF: [`./slides/pipeline/full_pipeline_slide4.pdf`](slides/pipeline/full_pipeline_slide4.pdf)
 
 ## Final Deliverables
 
@@ -87,4 +97,4 @@ Status: recorded local demo video. Target length is under 5 minutes.
 - Slides: [`./slides/final_proj_20261136.pptx`](slides/final_proj_20261136.pptx)
 - Paper: [`./paper/final_report_worldland_knowledge_wiki_agent.docx`](paper/final_report_worldland_knowledge_wiki_agent.docx)
 - Usage Log: [`./usage-log`](usage-log/)
-- Demo Video: [`./demo-video/demo_video.webm`](demo-video/demo_video.webm)
+- Demo Video: [`./demo-video/demo_video.mp4`](demo-video/demo_video.mp4)
