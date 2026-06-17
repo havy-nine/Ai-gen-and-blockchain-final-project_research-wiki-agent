@@ -1,0 +1,47 @@
+.env
+.env.*
+!.env.example
+.sisyphus/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+*.log
+*.tmp
+.~lock.*
+.DS_Store
+.ollama/
+*.key
+*.pem
+*.secret
+*.wallet
+node_modules/
+# Final submission upload hygiene
+final_submission_research_wiki.zip
+Generative-AI-Blockchain-2026-main.zip
+worldland_presentation_package_*.zip
+# Old/generated bulky artifacts not needed for final repo
+0608_ob/
+0608_ob_cli/
+obsidian_vault/
+obsidian_workspace/
+final_submission_package/
+presentation_package/
+worldland_presentation_package_*/
+upload_guidance/
+# Keep only final demo paper dataset under data/
+data/*
+!data/final_demo_papers/
+!data/final_demo_papers/**
+# Keep only final generated wiki output under output/
+output/*
+!output/wiki_final_demo/
+!output/wiki_final_demo/**
+# Avoid duplicate embedded PDFs in final artifact; canonical copies are in data/final_demo_papers/
+final_submission_research_wiki/demo_source_papers/*.pdf
+# Local logs and caches
+data/logs/
+*.html
