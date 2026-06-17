@@ -1,6 +1,6 @@
 # Demo Video
 
-Demo video file: `demo_video.webm`
+Demo video file: `demo_video.mp4`
 
 Target length: under 5 minutes.
 
