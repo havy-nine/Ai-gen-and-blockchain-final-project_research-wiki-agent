@@ -1,0 +1,15 @@
+# Core
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Embedding (optional - graceful fallback)
+sentence-transformers>=2.2.0
+
+# Blockchain
+web3>=6.0.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Utilities
+python-dotenv>=1.0.0
