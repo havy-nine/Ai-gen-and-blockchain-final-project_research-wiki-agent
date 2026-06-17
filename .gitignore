@@ -45,3 +45,7 @@ final_submission_research_wiki/demo_source_papers/*.pdf
 # Local logs and caches
 data/logs/
 *.html
+# Reproducible source PDFs are not tracked
+data/final_demo_papers/*.pdf
+final_submission_research_wiki/dragdrop_sources/
+final_submission_research_wiki/wiki_dragdrop_demo/

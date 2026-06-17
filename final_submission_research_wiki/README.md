@@ -30,10 +30,10 @@ Evaluation/Certified_PASS.md
 
 ## Demo Paper Set
 
-Downloaded into:
+The PDF list is reproducible from the manifest. To keep the GitHub repo lightweight, source PDFs are downloaded on demand instead of committed:
 
-```text
-data/final_demo_papers/
+```bash
+python demo/download_final_demo_papers.py --output-dir data/final_demo_papers
 ```
 
 Included papers:
@@ -58,9 +58,10 @@ Start Ollama if needed:
 nohup ollama serve > data/logs/ollama_final_demo.log 2>&1 &
 ```
 
-Run the final paper pipeline:
+If you want to regenerate from PDFs, download the paper set first, then run the final paper pipeline:
 
 ```bash
+python demo/download_final_demo_papers.py --output-dir data/final_demo_papers
 python demo/demo_pipeline.py --sources-dir data/final_demo_papers --output-dir output/wiki_final_demo --threshold-bps 7800 --llm-provider ollama --eval-provider ollama --mock-chain --mock-payment --append-usage-log
 ```
 
@@ -79,7 +80,7 @@ python demo/research_note_cli.py --query "로봇 조작 연구에서 vision-lang
 
 ## Drag-Drop PDF Demo
 
-For actual terminal drag/drop, run:
+For actual terminal drag/drop, run. The source folder is created/populated at runtime:
 
 ```bash
 python demo/source_drop_cli.py --sources-dir final_submission_research_wiki/dragdrop_sources --output-dir final_submission_research_wiki/wiki_dragdrop_demo --threshold-bps 7800 --llm-provider ollama --eval-provider ollama --mock-chain --mock-payment --append-usage-log

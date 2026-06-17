@@ -18,6 +18,7 @@ WorldLand Knowledge Wiki Agent is a local-first LLM research wiki for AI/robotic
 - Demo video: [`demo-video/README.md`](demo-video/README.md) - add uploaded video URL after recording
 - Final demo package: [`final_submission_research_wiki/`](final_submission_research_wiki/)
 - Final demo summary: [`final_submission_research_wiki/FINAL_DEMO_SUMMARY.json`](final_submission_research_wiki/FINAL_DEMO_SUMMARY.json)
+- Final paper manifest: [`data/final_demo_papers/FINAL_DEMO_PAPERS_MANIFEST.json`](data/final_demo_papers/FINAL_DEMO_PAPERS_MANIFEST.json)
 
 ## Problem and Target User
 
@@ -39,7 +40,7 @@ Open the final Obsidian vault:
 obsidian /home/cheon/Documents/workspace/ai_blockchain/final_submission_research_wiki/vault
 ```
 
-Run the integrated CLI for PDF input, pipeline execution, and research-topic search:
+Run the integrated CLI for PDF input, pipeline execution, and research-topic search. The `dragdrop_sources` folder is created at runtime when a PDF path is pasted or passed with `--add-file`:
 
 ```bash
 python demo/source_drop_cli.py --sources-dir final_submission_research_wiki/dragdrop_sources --output-dir output/wiki_final_demo --vault-dir final_submission_research_wiki/vault --llm-provider ollama --eval-provider ollama --mock-chain --mock-payment --append-usage-log
@@ -59,7 +60,13 @@ python demo/research_note_cli.py --query "로봇 조작 연구에서 vision-lang
 
 ## Final Demo Evidence
 
-Representative final run: `run_20260616_114325`
+To keep the repository lightweight, source PDFs are not committed. Recreate them from the manifest when needed:
+
+```bash
+python demo/download_final_demo_papers.py --output-dir data/final_demo_papers
+```
+
+The generated wiki and Obsidian vault are committed for review. Representative final run: `run_20260616_114325`
 
 - Source PDFs: 13
 - Chunks: 162
@@ -94,7 +101,7 @@ usage-log/                    Required usage log folder
 demo-video/                   Demo video link placeholder
 final_submission_research_wiki/ Final Obsidian/demo artifact
 output/wiki_final_demo/       Generated wiki pages for final demo
-data/final_demo_papers/       Final 13-paper demo set
+data/final_demo_papers/       Final 13-paper manifest; PDFs are downloaded on demand
 ```
 
 ## Honest Limitations
