@@ -1,0 +1,50 @@
+{
+  "final_demo_run": "run_20260616_114325",
+  "local_llm": {
+    "requested": "ollama",
+    "model": "qwen2.5:3b",
+    "provider_used": "mock+ollama",
+    "fallback_message": "LLM unavailable; deterministic mock fallback used. (timed out)"
+  },
+  "paper_set": {
+    "source_dir": "data/final_demo_papers",
+    "pdf_count": 13,
+    "manifest": "data/final_demo_papers/FINAL_DEMO_PAPERS_MANIFEST.json"
+  },
+  "pipeline_result": {
+    "source_files": 13,
+    "chunks": 162,
+    "pages": 14,
+    "passed": 13,
+    "failed": 1,
+    "mock_certificate_tx": 13,
+    "mock_payment_tx": 43
+  },
+  "vault": {
+    "path": "final_submission_research_wiki/vault",
+    "dashboard": "final_submission_research_wiki/vault/Research Dashboard.md",
+    "clean_graph_filter": "-path:\"Daily Logs\" -path:\"Evidence\" -path:\"Evaluation\" -path:\"_hidden\" -Hallucinated -FAIL_LOCAL_ONLY"
+  },
+  "terminal_search": {
+    "script": "demo/wiki_search_cli.py",
+    "semantic_verified_query": "robot manipulation diffusion policy vision language action",
+    "keyword_verified_query": "gaussian nerf 3d reconstruction"
+  },
+  "research_note_test": {
+    "provider_used": "ollama",
+    "fallback_used": false,
+    "note_path": "final_submission_research_wiki/vault/Research Notes/20260616_204702_로봇_조작_연구에서_vision-language-action_모델_diffusion_policy_대규모_로봇_데이터셋을_비교하고_실제_실험_설계.md"
+  },
+  "open_vault_command": "obsidian /home/cheon/Documents/workspace/ai_blockchain/final_submission_research_wiki/vault",
+  "integrated_cli_research_query": {
+    "script": "demo/source_drop_cli.py",
+    "menu_option": "5 연구주제 입력",
+    "verified": true,
+    "latest_note": "final_submission_research_wiki/vault/Research Notes/20260617_101502_로봇_팔이_자연어_명령을_이해하고_카메라_기반으로_물체를_집는_연구.md",
+    "latest_related_sources": [
+      "Open_X_Embodiment_Robotic_Learning_Datasets_and_RT_X_Models.pdf",
+      "PerAct_Perceiver_Actor_for_Multi_Task_Transformer_Robotics.pdf",
+      "RT_1_Robotics_Transformer_for_Real_World_Control.pdf"
+    ]
+  }
+}

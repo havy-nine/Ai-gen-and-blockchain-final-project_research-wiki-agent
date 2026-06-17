@@ -1,0 +1,65 @@
+{
+  "page_id": "a042b33e-47a3-4d4e-b899-c8cc0081ae16",
+  "title": "DINOv2 Learning Robust Visual Features without Supervision",
+  "source_chunk_ids": [
+    "c_8a93f80f",
+    "c_3464042f",
+    "c_170c5bdd",
+    "c_f1fed15e",
+    "c_95048af6",
+    "c_43bfb0f7",
+    "c_fee9e527",
+    "c_6a4958dd",
+    "c_d707386c",
+    "c_df8a9628",
+    "c_d169bbaa",
+    "c_9aa26cb9"
+  ],
+  "source_file": "DINOv2_Learning_Robust_Visual_Features_without_Supervision.pdf",
+  "claims": [
+    "[c_8a93f80f] # Page 1 Published in Transactions on Machine Learning Research (01/2024) DINOv2: Learning Robust Visual Features without Supervision Maxime Oquab∗∗, Timothée Darcet∗∗",
+    "Vo∗, Marc Szafraniec∗, Vasil Khalidov∗, Pierre Fernandez, Daniel Haziza, Francisco Massa, Alaaeldin El-Nouby, Mahmoud Assran, Nicolas Ballas, Wojciech Galuba, Russell Howes, Po-Yao",
+    "net/forum?id=a68SUt6zFt Abstract The recent breakthroughs in natural language processing for model pretraining on large quantities of data have opened the way for similar foundatio",
+    "These models could greatly simplify the use of images in any system by producing general- purpose visual features, i",
+    ", features that work across image distributions and tasks without finetuning"
+  ],
+  "cross_link_candidates": [
+    {
+      "target_index": 5,
+      "target_title": "LLaVA Visual Instruction Tuning",
+      "cosine_sim": 0.6668
+    },
+    {
+      "target_index": 1,
+      "target_title": "CLIP Learning Transferable Visual Models",
+      "cosine_sim": 0.5971
+    },
+    {
+      "target_index": 6,
+      "target_title": "NeRF Representing Scenes as Neural Radiance Fields",
+      "cosine_sim": 0.5623
+    }
+  ],
+  "accepted_cross_links": [
+    {
+      "source_page": "DINOv2 Learning Robust Visual Features without Supervision",
+      "target_page": "LLaVA Visual Instruction Tuning",
+      "cosine_similarity": 0.6668,
+      "eval_decision": "ACCEPT",
+      "reason": "target terms appear in source evidence",
+      "accepted": true
+    },
+    {
+      "source_page": "DINOv2 Learning Robust Visual Features without Supervision",
+      "target_page": "CLIP Learning Transferable Visual Models",
+      "cosine_similarity": 0.5971,
+      "eval_decision": "ACCEPT",
+      "reason": "target terms appear in source evidence",
+      "accepted": true
+    }
+  ],
+  "llm_provider": "mock",
+  "llm_fallback_used": true,
+  "llm_issue": "LLM unavailable; deterministic mock fallback used. (timed out)",
+  "created_at": "2026-06-16T11:45:16.999117+00:00"
+}

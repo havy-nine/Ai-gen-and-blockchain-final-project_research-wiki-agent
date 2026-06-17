@@ -1,0 +1,63 @@
+{
+  "page_id": "81350ff2-63c6-4eeb-9c95-70018e2efbd4",
+  "title": "NeRF Representing Scenes as Neural Radiance Fields",
+  "source_chunk_ids": [
+    "c_b36358b2",
+    "c_64fca9cb",
+    "c_8d3093d2",
+    "c_7e1a6dcc",
+    "c_700e6806",
+    "c_15ce421a",
+    "c_97ddf803",
+    "c_df94503e",
+    "c_3aeb8591",
+    "c_f47f8b64",
+    "c_c66a2ef5",
+    "c_d08ad5c4"
+  ],
+  "source_file": "NeRF_Representing_Scenes_as_Neural_Radiance_Fields.pdf",
+  "claims": [
+    "Achieves state-of-the-art results for synthesizing novel views of complex scenes.",
+    "Uses a fully-connected deep network to represent scene functions, optimizing from single 5D coordinates (x,y,z,θ,φ) to volume density and view-dependent RGB color.",
+    "Optimizes neural radiance fields using gradient descent to minimize error between observed images and rendered views."
+  ],
+  "cross_link_candidates": [
+    {
+      "target_index": 0,
+      "target_title": "3D Gaussian Splatting for Real Time Radiance Field Rendering",
+      "cosine_sim": 0.5838
+    },
+    {
+      "target_index": 5,
+      "target_title": "LLaVA Visual Instruction Tuning",
+      "cosine_sim": 0.5655
+    },
+    {
+      "target_index": 3,
+      "target_title": "DINOv2 Learning Robust Visual Features without Supervision",
+      "cosine_sim": 0.5623
+    }
+  ],
+  "accepted_cross_links": [
+    {
+      "source_page": "NeRF Representing Scenes as Neural Radiance Fields",
+      "target_page": "3D Gaussian Splatting for Real Time Radiance Field Rendering",
+      "cosine_similarity": 0.5838,
+      "eval_decision": "ACCEPT",
+      "reason": "target terms appear in source evidence",
+      "accepted": true
+    },
+    {
+      "source_page": "NeRF Representing Scenes as Neural Radiance Fields",
+      "target_page": "DINOv2 Learning Robust Visual Features without Supervision",
+      "cosine_similarity": 0.5623,
+      "eval_decision": "ACCEPT",
+      "reason": "target terms appear in source evidence",
+      "accepted": true
+    }
+  ],
+  "llm_provider": "ollama",
+  "llm_fallback_used": false,
+  "llm_issue": "",
+  "created_at": "2026-06-16T11:45:25.449517+00:00"
+}

@@ -1,0 +1,75 @@
+{
+  "page_id": "04f233a7-2437-4428-a395-30593dc274e9",
+  "title": "Diffusion Policy Visuomotor Policy Learning",
+  "source_chunk_ids": [
+    "c_43beee80",
+    "c_36a0fdac",
+    "c_a7987a86",
+    "c_daccb622",
+    "c_a106bb3d",
+    "c_3e4bb92d",
+    "c_83b50f5a",
+    "c_73fa94c9",
+    "c_2a14989d",
+    "c_770ea725",
+    "c_3f1320c2",
+    "c_480ddc5c",
+    "c_f08b9c44"
+  ],
+  "source_file": "Diffusion_Policy_Visuomotor_Policy_Learning.pdf",
+  "claims": [
+    "1. Diffusion Policy can express arbitrary normalizable distributions, including multimodal action distributions.",
+    "2. It handles high-dimensional action spaces effectively.",
+    "3. The method achieves stable training while maintaining distributional expressivity.",
+    "4. Closed-loop action sequences improve robustness and temporal consistency.",
+    "5. Visual conditioning reduces computation and enables real-time inference.",
+    "6. Time-series diffusion transformer enhances performance for tasks requiring high-frequency actions."
+  ],
+  "cross_link_candidates": [
+    {
+      "target_index": 7,
+      "target_title": "Open X Embodiment Robotic Learning Datasets and RT X Models",
+      "cosine_sim": 0.5288
+    },
+    {
+      "target_index": 10,
+      "target_title": "RT 1 Robotics Transformer for Real World Control",
+      "cosine_sim": 0.5016
+    },
+    {
+      "target_index": 1,
+      "target_title": "CLIP Learning Transferable Visual Models",
+      "cosine_sim": 0.4827
+    }
+  ],
+  "accepted_cross_links": [
+    {
+      "source_page": "Diffusion Policy Visuomotor Policy Learning",
+      "target_page": "Open X Embodiment Robotic Learning Datasets and RT X Models",
+      "cosine_similarity": 0.5288,
+      "eval_decision": "ACCEPT",
+      "reason": "target terms appear in source evidence",
+      "accepted": true
+    },
+    {
+      "source_page": "Diffusion Policy Visuomotor Policy Learning",
+      "target_page": "RT 1 Robotics Transformer for Real World Control",
+      "cosine_similarity": 0.5016,
+      "eval_decision": "ACCEPT",
+      "reason": "target terms appear in source evidence",
+      "accepted": true
+    },
+    {
+      "source_page": "Diffusion Policy Visuomotor Policy Learning",
+      "target_page": "CLIP Learning Transferable Visual Models",
+      "cosine_similarity": 0.4827,
+      "eval_decision": "ACCEPT",
+      "reason": "target terms appear in source evidence",
+      "accepted": true
+    }
+  ],
+  "llm_provider": "ollama",
+  "llm_fallback_used": false,
+  "llm_issue": "",
+  "created_at": "2026-06-16T11:45:20.738701+00:00"
+}

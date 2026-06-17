@@ -1,0 +1,71 @@
+{
+  "page_id": "b455ee5d-fa5e-42c3-845f-3a14f8450de7",
+  "title": "RT 1 Robotics Transformer for Real World Control",
+  "source_chunk_ids": [
+    "c_7f6ae2ce",
+    "c_c97d519c",
+    "c_3d498e66",
+    "c_b0be2498",
+    "c_2a47bdd7",
+    "c_1699a002",
+    "c_a4129fa5",
+    "c_1500fd63",
+    "c_d2d08d5e",
+    "c_fa0b03c4",
+    "c_22250c9b",
+    "c_e2f56390"
+  ],
+  "source_file": "RT_1_Robotics_Transformer_for_Real_World_Control.pdf",
+  "claims": [
+    "RT-1 can generalize well to new robotic tasks, environments, and objects.",
+    "The model achieves over 97% success rate in performing up to 700 training instructions.",
+    "It outperforms existing methods by 25%, 36%, and 18% on generalization metrics for distractors, backgrounds, and new scenarios."
+  ],
+  "cross_link_candidates": [
+    {
+      "target_index": 9,
+      "target_title": "PerAct Perceiver Actor for Multi Task Transformer Robotics",
+      "cosine_sim": 0.6549
+    },
+    {
+      "target_index": 7,
+      "target_title": "Open X Embodiment Robotic Learning Datasets and RT X Models",
+      "cosine_sim": 0.6486
+    },
+    {
+      "target_index": 11,
+      "target_title": "RT 2 Vision Language Action Models",
+      "cosine_sim": 0.5852
+    }
+  ],
+  "accepted_cross_links": [
+    {
+      "source_page": "RT 1 Robotics Transformer for Real World Control",
+      "target_page": "PerAct Perceiver Actor for Multi Task Transformer Robotics",
+      "cosine_similarity": 0.6549,
+      "eval_decision": "ACCEPT",
+      "reason": "target terms appear in source evidence",
+      "accepted": true
+    },
+    {
+      "source_page": "RT 1 Robotics Transformer for Real World Control",
+      "target_page": "Open X Embodiment Robotic Learning Datasets and RT X Models",
+      "cosine_similarity": 0.6486,
+      "eval_decision": "ACCEPT",
+      "reason": "target terms appear in source evidence",
+      "accepted": true
+    },
+    {
+      "source_page": "RT 1 Robotics Transformer for Real World Control",
+      "target_page": "RT 2 Vision Language Action Models",
+      "cosine_similarity": 0.5852,
+      "eval_decision": "ACCEPT",
+      "reason": "target terms appear in source evidence",
+      "accepted": true
+    }
+  ],
+  "llm_provider": "ollama",
+  "llm_fallback_used": false,
+  "llm_issue": "",
+  "created_at": "2026-06-16T11:45:38.579808+00:00"
+}

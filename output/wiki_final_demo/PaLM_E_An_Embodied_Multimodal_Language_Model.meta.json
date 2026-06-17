@@ -1,0 +1,63 @@
+{
+  "page_id": "d2b93639-ba47-4354-99f4-6642ad85f59e",
+  "title": "PaLM E An Embodied Multimodal Language Model",
+  "source_chunk_ids": [
+    "c_57c385ab",
+    "c_6ec9c90e",
+    "c_8d92e757",
+    "c_1cbdb8db",
+    "c_ee3bd8ae",
+    "c_c14602a0",
+    "c_90c9613b",
+    "c_6e69d1d5",
+    "c_4b977531",
+    "c_736df46d",
+    "c_3a797338",
+    "c_e911b5dc"
+  ],
+  "source_file": "PaLM_E_An_Embodied_Multimodal_Language_Model.pdf",
+  "claims": [
+    "1. **Embodied Language Models**: PaLM-E is a single general-purpose multimodal language model that can handle embodied reasoning tasks, visual-language tasks, and language tasks.",
+    "2. **Transfer Learning**: The model benefits from diverse joint training across internet-scale domains including language, vision, and visual-language domains.",
+    "3. **Robotic Applications**: PaLM-E can address various robotic tasks using multi-modal sentences."
+  ],
+  "cross_link_candidates": [
+    {
+      "target_index": 11,
+      "target_title": "RT 2 Vision Language Action Models",
+      "cosine_sim": 0.7038
+    },
+    {
+      "target_index": 5,
+      "target_title": "LLaVA Visual Instruction Tuning",
+      "cosine_sim": 0.6345
+    },
+    {
+      "target_index": 12,
+      "target_title": "Segment Anything",
+      "cosine_sim": 0.5639
+    }
+  ],
+  "accepted_cross_links": [
+    {
+      "source_page": "PaLM E An Embodied Multimodal Language Model",
+      "target_page": "RT 2 Vision Language Action Models",
+      "cosine_similarity": 0.7038,
+      "eval_decision": "ACCEPT",
+      "reason": "target terms appear in source evidence",
+      "accepted": true
+    },
+    {
+      "source_page": "PaLM E An Embodied Multimodal Language Model",
+      "target_page": "LLaVA Visual Instruction Tuning",
+      "cosine_similarity": 0.6345,
+      "eval_decision": "ACCEPT",
+      "reason": "target terms appear in source evidence",
+      "accepted": true
+    }
+  ],
+  "llm_provider": "ollama",
+  "llm_fallback_used": false,
+  "llm_issue": "",
+  "created_at": "2026-06-16T11:45:31.738406+00:00"
+}

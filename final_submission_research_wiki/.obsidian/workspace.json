@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "dbc87d76c00755e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0277a18fb0ea0da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30f175a40545969f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vault/Daily Logs/Daily_Research_Log_2026_06_04.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily_Research_Log_2026_06_04"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6217d501d2ef7829",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d249757102eaa25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89d31f98ec35a54a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0c75249251f2e8bf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9598ff9511d0534a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c09365dcf89a2787",
+    "type": "split",
+    "children": [
+      {
+        "id": "65f75892d5275379",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d259f0f64e89eda4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "vault/Sources/Source Library.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Source Library"
+            }
+          },
+          {
+            "id": "24a64a661b5bb7c1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "vault/Sources/Source Library.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Source Library"
+            }
+          },
+          {
+            "id": "3c0efd9dc66a7659",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "12e02a82427dcf42",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "410160f197c0640a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "vault/Sources/Source Library.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Source Library"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "30f175a40545969f",
+  "lastOpenFiles": [
+    "vault/Daily Logs/Daily_Research_Log_2026_06_16.md",
+    "vault/Daily Logs/Daily_Research_Log_2026_06_08.md",
+    "vault/Daily Logs/Daily_Research_Log_2026_06_07.md",
+    "vault/Daily Logs/Daily_Research_Log_2026_06_04.md",
+    "vault/Research Notes/20260617_101502_로봇_팔이_자연어_명령을_이해하고_카메라_기반으로_물체를_집는_연구.md",
+    "vault/Research Notes/20260617_094705_로봇_팔이_카메라_영상을_보고_자연어_명령을_이해해서_물체를_집고_옮기는_manipulation_연구를_하고_싶다_vision-language-.md",
+    "vault/Research Notes/20260616_204702_로봇_조작_연구에서_vision-language-action_모델_diffusion_policy_대규모_로봇_데이터셋을_비교하고_실제_실험_설계.md",
+    "demo_source_papers/DETR_End_to_End_Object_Detection_with_Transformers.pdf",
+    "demo_source_papers/CLIP_Learning_Transferable_Visual_Models.pdf",
+    "demo_source_papers/3D_Gaussian_Splatting_for_Real_Time_Radiance_Field_Rendering.pdf",
+    "vault/Tasks/Visual_Representation_Learning.md",
+    "vault/Tasks/Scene_Understanding.md",
+    "vault/Tasks/Robot_Manipulation.md",
+    "vault/Tasks/Robot_Control.md",
+    "vault/Tasks/Multimodal_Retrieval.md",
+    "vault/Tasks/Object_Detection.md",
+    "vault/Tasks/Image_and_Video_Segmentation.md",
+    "wiki_dragdrop_demo/Diffusion_Policy_Visuomotor_Policy_Learning.md",
+    "WHAT_CHANGED.md",
+    "VIDEO_GUIDE.md",
+    "demo_source_papers/LLaVA_Visual_Instruction_Tuning.pdf",
+    "demo_source_papers/NeRF_Representing_Scenes_as_Neural_Radiance_Fields.pdf",
+    "demo_source_papers/PerAct_Perceiver_Actor_for_Multi_Task_Transformer_Robotics.pdf",
+    "demo_source_papers/Open_X_Embodiment_Robotic_Learning_Datasets_and_RT_X_Models.pdf",
+    "demo_source_papers/PaLM_E_An_Embodied_Multimodal_Language_Model.pdf",
+    "demo_source_papers/DINOv2_Learning_Robust_Visual_Features_without_Supervision.pdf",
+    "wiki_dragdrop_demo/Hallucinated_Failure_Fixture.md",
+    "vault/Research Topics/Image_and_Video_Segmentation.md",
+    "vault/Evaluation/Certified_PASS.md",
+    "vault/Research Topics/Robotics_and_Manipulation.md",
+    "vault/Research Topics/Robotics and Video Research.md",
+    "vault/Research Topics/Multimodal_AI.md",
+    "vault/Research Topics/AI Research Atlas.md",
+    "vault/Research Topics/3D_Reconstruction.md",
+    "vault/Sources/Source Library.md",
+    "vault/Evidence/threshold_curve.png",
+    "vault/Evidence/reward_comparison.png",
+    "dragdrop_sources/Diffusion_Policy_Visuomotor_Policy_Learning.pdf"
+  ]
+}
