@@ -80,6 +80,6 @@ Status: pending upload/link. The final video should be under 5 minutes.
 
 - Code: [`./code`](code/)
 - Slides: [`./slides`](slides/) - placeholder folder, final slides pending
-- Paper: [`./paper`](paper/) - placeholder folder, final report pending
+- Paper: [`./paper/final_report_worldland_knowledge_wiki_agent.docx`](paper/final_report_worldland_knowledge_wiki_agent.docx)
 - Usage Log: [`./usage-log`](usage-log/)
 - Demo Video: [`./demo-video`](demo-video/)
