@@ -1,6 +1,6 @@
 # Demo Video
 
-Demo video link: TODO - add the uploaded video URL here after recording.
+Demo video file: `demo_video.webm`
 
 Target length: under 5 minutes.
 

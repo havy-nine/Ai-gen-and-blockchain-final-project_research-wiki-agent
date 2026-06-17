@@ -72,14 +72,14 @@ Real payment or public-chain publication would require explicit human approval a
 
 ## Demo Video
 
-Demo video folder: [`./demo-video`](demo-video/)
+Demo video file: [`./demo-video/demo_video.webm`](demo-video/demo_video.webm)
 
-Status: pending upload/link. The final video should be under 5 minutes.
+Status: recorded local demo video. Target length is under 5 minutes.
 
 ## Final Deliverables
 
 - Code: [`./code`](code/)
-- Slides: [`./slides`](slides/) - placeholder folder, final slides pending
+- Slides: [`./slides/final_proj_20261136.pptx`](slides/final_proj_20261136.pptx)
 - Paper: [`./paper/final_report_worldland_knowledge_wiki_agent.docx`](paper/final_report_worldland_knowledge_wiki_agent.docx)
 - Usage Log: [`./usage-log`](usage-log/)
-- Demo Video: [`./demo-video`](demo-video/)
+- Demo Video: [`./demo-video/demo_video.webm`](demo-video/demo_video.webm)
